@@ -1,0 +1,39 @@
+
+---
+
+# 2) Workflow d’auto-synchronisation  
+Chemin : **`.github/workflows/sync-json-resume.yml`**
+
+```yaml
+name: Sync JSON Resume from hosted source
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # Tous les jours à 03:00 UTC
+  workflow_dispatch:       # Lancement manuel possible
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch hosted JSON
+        run: |
+          set -e
+          curl -fSL "https://raisume.gentlestacks.co/CV_Jerome_FELIX.json" -o "CV_Jerome_FELIX.json"
+          echo "Fetched CV_Jerome_FELIX.json, bytes:"
+          wc -c CV_Jerome_FELIX.json
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet --exit-code CV_Jerome_FELIX.json; then
+            echo "No changes to commit."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add CV_Jerome_FELIX.json
+            git commit -m "chore: sync JSON resume from hosted source"
+            git push
+          fi
