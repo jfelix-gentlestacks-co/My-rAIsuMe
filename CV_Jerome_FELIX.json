@@ -1,1 +1,1268 @@
-Empty
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Jérôme FELIX",
+    "label": "Consultant IT & Architecte logiciel (indépendant)",
+    "email": "j.felix@gentlestacks.co",
+    "phone": "+61 419 594 023",
+    "url": "https://gentlestacks.co",
+    "summary": "Architecte logiciel & consultant IT avec 25+ ans d'expérience, spécialisé dans la conception et le développement de solutions métier sur mesure (Laravel/PHP, Python, JavaScript). Expert en architecture cloud Azure, intégration de systèmes complexes (ERP, e-commerce, OCR) et transformation digitale. A livré des projets stratégiques pour PME, collectivités et grands comptes dans les télécoms, retail, industrie et santé. Intègre l'IA générative aux systèmes existants (automatisation, insights). Leader pragmatique orienté résultats et adoption utilisateur. Basé à Melbourne (AU) avec société en Nouvelle-Calédonie. Interventions remote worldwide avec avantage du décalage horaire pour support multi-fuseaux (Europe/Asie/Pacifique). Déplacements sur site possibles en EU, NC et ANZ selon nécessité projet.",
+    "location": {
+      "city": "Melbourne",
+      "region": "Victoria",
+      "countryCode": "AU"
+    },
+    "meta": {
+      "companyBase": "Nouméa, Nouvelle-Calédonie",
+      "remote": true,
+      "remoteScope": "monde entier",
+      "onsiteTravel": "missions ponctuelles sur demande (UE/ANZ/NC)",
+      "availability": "immédiate",
+      "workPreferences": [
+        "Télétravail mondial",
+        "Présentiel ponctuel (Europe / Australie / Nouvelle-Calédonie)"
+      ],
+      "timezones": [
+        "UTC+10/11 (AEST/AEDT)",
+        "Recouvrement Europe (CET/CEST)",
+        "Recouvrement Amérique (ET/PT)"
+      ],
+      "overlapExamples": [
+        {
+          "clientRegion": "Europe (CET/CEST)",
+          "typicalOverlap": "≈08h00–12h00 Europe ↔ 18h00–22h00 Australie (selon DST)"
+        },
+        {
+          "clientRegion": "Amérique de l'Est (ET)",
+          "typicalOverlap": "≈16h00–20h00 ET ↔ 06h00–10h00 Australie (lendemain)"
+        },
+        {
+          "clientRegion": "Amérique de l'Ouest (PT)",
+          "typicalOverlap": "≈13h00–17h00 PT ↔ 06h00–10h00 Australie (lendemain)"
+        }
+      ],
+      "engagementModes": ["Mission freelance", "Forfait projet", "TJM (régie)"],
+      "preferredSectors": [
+        "Collectivités",
+        "PME",
+        "Retail / Services",
+        "Industrie"
+      ]
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "jfelix",
+        "url": "https://www.linkedin.com/in/jfelix"
+      }
+    ]
+  },
+
+  "work": [
+    {
+      "name": "gentlestacks.co",
+      "position": "Consultant IT & Architecte logiciel (indépendant)",
+      "url": "https://gentlestacks.co",
+      "location": "Nouméa, Nouvelle-Calédonie",
+      "summary": "Conseil et développement logiciel. Architecture applicative & systèmes, MCO, intégration IA, pilotage de projets cloud (Azure) pour PME/collectivités en NC et ANZ.",
+      "startDate": "2025-08",
+      "highlights": [
+        "Conception et mise en œuvre de solutions IT innovantes, alignées sur les enjeux métier",
+        "Expertise en gestion de projets et développement logiciel, avec méthodologies Agile et vision stratégique",
+        "Développement sur mesure d’applications web et mobiles (Laravel, Laravel Nova, PHP, Python, Django, JavaScript)",
+        "Conception d’architectures logicielles avancées : ERP, OCR haute précision, interconnexion de systèmes métiers",
+        "Mise en place et gestion d’infrastructures cloud (Azure, OVH) et de solutions SaaS clés en main",
+        "Accompagnement en gestion de projet et conseil IT : MOA, audit SI, formation, coaching technique, sécurité et RGPD",
+        "Expérience multisectorielle : industrie, télécoms, santé, luxe, finance, énergie, distribution"
+      ],
+      "keywords": [
+        "Agile",
+        "Scrum",
+        "PMI",
+        "Gestion de projet",
+        "Conseil IT",
+        "Développement sur mesure",
+        "Applications web",
+        "Applications mobiles",
+        "Laravel",
+        "Laravel Nova",
+        "PHP",
+        "Python",
+        "Django",
+        "JavaScript",
+        "Architecture logicielle",
+        "ERP",
+        "OCR",
+        "Intégration de systèmes",
+        "Azure",
+        "OVH",
+        "Hébergement cloud",
+        "SaaS",
+        "Audit SI",
+        "Formation",
+        "Coaching technique",
+        "Cybersécurité",
+        "RGPD",
+        "Industrie",
+        "Télécoms",
+        "Santé",
+        "Luxe",
+        "Finance",
+        "Énergie",
+        "Distribution"
+      ]
+    },
+    {
+      "name": "optimium.consulting - Groupe ABI",
+      "position": "Responsable de la division Développement logiciel",
+      "location": "Nouméa, Province Sud, Nouvelle-Calédonie",
+      "startDate": "2020-01",
+      "endDate": "2025-06",
+      "summary": "Création, lancement et direction de la division Développement, spécialisée dans la conception de solutions métier sur mesure en réponse aux limites des progiciels standards.",
+      "highlights": [
+        "ERP avec traçabilité de la gestion de la production et l'exploitation du bois de santal (plans de coupes, achats, transformation, droits coutumiers, certifications, export).",
+        "Système de sondage de satisfaction client temps réel connecté à Sage avec notification temps réel et workflow de gestion des retours clients.",
+        "Système de paie adapté ESAT / travailleurs handicapés.",
+        "CRM avec gestion de pipeline commercial avec prévisions.",
+        "Multiples sites e-commerce avec synchro Sage (catalogue/stock/commandes).",
+        "Programme de fidélité interfacé avec ERP et app mobile."
+      ],
+      "keywords": [
+        "Laravel",
+        "Laravel Nova",
+        "Laravel Backpack",
+        "WordPress",
+        "WooCommerce",
+        "PHP",
+        "MySQL",
+        "Azure App Service",
+        "OVH",
+        "PDF",
+        "Sage ERP"
+      ]
+    },
+    {
+      "name": "optimium.nc - Groupe ABI",
+      "position": "Responsable Développement Commercial & Services Cloud",
+      "location": "Nouméa, Province Sud, Nouvelle-Calédonie",
+      "startDate": "2016-06",
+      "endDate": "2019-12",
+      "summary": "Création et lancement d’une BU cloud & services pros (optimium.consulting). Migration M365/Azure pour de nombreux clients ; mise en place de méthodologie projet et conduite du changement.",
+      "highlights": [
+        "Programme M365 d’une grande collectivité (déploiement SharePoint, 50+ migrations hybrides Exchange/Azure AD).",
+        "Déploiement d’infrastructures Azure pour un grand compte utilities (landing zone, réseau, IAM, sauvegardes).",
+        "Augmentation du taux de facturation services de 200% via standardisation et pilotage.",
+        "Coaching des équipes commerciales et techniques ; industrialisation avant-vente→delivery→infogérance."
+      ],
+      "keywords": [
+        "Microsoft 365",
+        "SharePoint",
+        "Exchange Hybrid",
+        "Azure AD",
+        "Azure IaaS",
+        "ManageEngine",
+        "GLPI",
+        "Conduite du changement",
+        "Microsoft Project",
+        "BPM"
+      ]
+    },
+    {
+      "name": "Sharp-Center - Groupe ABI",
+      "position": "Responsable Développement Commercial & Offres IT",
+      "location": "Nouméa, Province Sud, Nouvelle-Calédonie",
+      "startDate": "2015-04",
+      "endDate": "2016-07",
+      "summary": "Conception et lancement de la marque IT (optimium.nc). Amélioration délais/qualité projets via méthodologie et outillage.",
+      "highlights": [
+        "Structuration offre services (cloud, M365, Azure) et mise en marché.",
+        "Pilotage des premiers prototypes clients jusqu’à l’infogérance."
+      ]
+    },
+    {
+      "name": "Bouygues Telecom Entreprises",
+      "position": "Responsable de Projet Marketing Offres & Services Cloud",
+      "location": "Paris, Île-de-France, France",
+      "startDate": "2012-06",
+      "endDate": "2014-12",
+      "summary": "BU Cloud (Direction Marketing) : études de marché (quanti/quali), business plans, définition d’offres et prestations associées, sélection fournisseurs, intégration technique avec DSI & Réseau, cadrage des processus commande→activation→facturation→support, formation des équipes et accompagnement avant-vente terrain.",
+      "highlights": [
+        "Études de marché et d’opportunités (quanti/quali) et élaboration des business plans.",
+        "Définition des offres Cloud B2B et des prestations de services associées ; consultations & sélections fournisseurs.",
+        "Intégration des plateformes techniques avec les équipes internes DSI & Réseau ; définition des processus opérationnels (commande, activation, facturation, support).",
+        "Lancement, suivi et évolutions des offres ; formation des équipes internes ; accompagnement avant-vente terrain.",
+        "Offres & services développés : sauvegardes/stockages Cloud (Seagate/eVault, NumVision), web-conférence, Microsoft Office 365, MDM Citrix/BlackBerry, serveurs & architectures virtuelles.",
+        "Projets clients (exemples) : TF1 – partage de fichiers sécurisé pour 1 500 journalistes en mobilité ; Mazars – sauvegarde en ligne des PC (1 000 consultants) ; OPPBTP – sauvegarde du SI + contrat d’infogérance (70 serveurs) ; Eau Écarlate – sauvegarde SI (20 serveurs) ; École Polytechnique – MDM (5 000 utilisateurs)."
+      ],
+      "keywords": [
+        "Cloud B2B",
+        "Office 365",
+        "MDM",
+        "Citrix XenMobile",
+        "BlackBerry",
+        "Online Backup",
+        "Web Conferencing",
+        "Processus commande→activation→facturation→support"
+      ]
+    },
+    {
+      "name": "Bouygues Telecom secteur Entreprises",
+      "position": "Responsable Services Professionnels IT",
+      "location": "Paris, Île-de-France, France",
+      "startDate": "2006-11",
+      "endDate": "2012-05",
+      "summary": "Création du département Services Professionnels (30 ingénieurs, 3 managers) et développement de >4 M€ de CA annuel.",
+      "highlights": [
+        "3000 j/h de conseil délivrés/an ; mise en place méthodologie PMI et formation des équipes.",
+        "Grands comptes : Devoteam, Groupe Mulliez, Bouygues Construction, LVMH."
+      ],
+      "keywords": ["PMI", "ITIL", "Gestion de services", "Managed Services"]
+    },
+    {
+      "name": "Bouygues Telecom secteur Entreprises",
+      "position": "Manager Avant-Vente Solutions de Mobilité d’Entreprises",
+      "location": "Paris, Île-de-France, France",
+      "startDate": "2001-03",
+      "endDate": "2006-10",
+      "summary": "Développement des ventes de solutions data mobile pendant la transition 2G→3G ; recrutement et animation d’une équipe de 6 ingénieurs avant-vente.",
+      "highlights": [
+        "Montée en puissance des usages data mobile (VPN, APN dédiés, sécurisation, MDM).",
+        "Pilotage du go-to-market avec forces de vente directes/indirectes.",
+        "Références projets : Dulux Valentine – relevé concurrence mobile en points de vente ; Hilti – accès CRM en mobilité ; Lancement EDGE pour clients Entreprises ; MNEF – APN dédié pour 100 agences ; Douanes françaises – géolocalisation des agents."
+      ],
+      "keywords": [
+        "3G",
+        "EDGE",
+        "VPN mobiles",
+        "APN dédiés",
+        "MDM",
+        "Avant-vente",
+        "Go-to-market"
+      ]
+    },
+    {
+      "name": "Traderforce",
+      "position": "Responsable IT & Chef de projet",
+      "location": "Paris, Île-de-France, France",
+      "startDate": "1999-06",
+      "endDate": "2001-02",
+      "summary": "Startup concurrente de Reuters/Bloomberg (rachetée ensuite par FlexTrade) sur données de marché et outils d’analyse.",
+      "highlights": [
+        "Design de l’architecture fonctionnelle et technique de la plateforme temps réel.",
+        "Stack 100% Microsoft : SQL Server, IIS, ASP, MS Cluster.",
+        "Développements cœur en C++ (COM/DCOM, ActiveX).",
+        "Recrutement, formation et management d’une équipe de 12 développeurs."
+      ],
+      "keywords": [
+        "Temps réel",
+        "Trading",
+        "Data feeds",
+        "C/C++",
+        "COM/DCOM",
+        "ActiveX",
+        "SQL Server",
+        "IIS",
+        "ASP",
+        "HA/Cluster"
+      ]
+    },
+    {
+      "name": "Axidia",
+      "position": "Ingénieur / Chef de projet",
+      "location": "Paris, Île-de-France, France",
+      "startDate": "1997-09",
+      "endDate": "1999-05",
+      "summary": "Réalisation d’intranets et sites institutionnels.",
+      "highlights": [
+        "Réponses à appels d’offres, maquettages, spécifications et développements.",
+        "Intranet marketing multilingue L’Oréal.",
+        "Transformation du service Minitel de l’AP-HP en site institutionnel complet."
+      ],
+      "keywords": [
+        "HTML",
+        "ASP",
+        ".NET",
+        "Perl",
+        "JavaScript",
+        "UNIX",
+        "Intranet/Extranet",
+        "AO/Maquettes"
+      ]
+    },
+    {
+      "name": "Ministère français des Affaires étrangères",
+      "position": "Consultant pédagogique - Programme Master Informatique",
+      "location": "Antananarivo, Madagascar",
+      "startDate": "1995-09",
+      "endDate": "1997-09",
+      "summary": "Mise en place du Master d’informatique à l’Université d’Antananarivo (devenu programme de référence).",
+      "highlights": [
+        "Conception du cursus, encadrement enseignants, transfert de compétences."
+      ],
+      "keywords": ["Enseignement", "Curriculum design", "Formation"]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "rAisuMe – Analyse de CV par IA pour l'aide au recrutement",
+      "entity": "gentlestacks.co (projet personnel / démonstrateur)",
+      "type": "professional",
+      "startDate": "2025-10",
+      "endDate": "2025-10",
+      "url": "https://raisume.gentlestacks.co/",
+      "description": "Application one-page (Slim 4, PHP) qui évalue un CV (JSON Resume) face à une offre d'emploi ou à des questions recruteur. UI minimaliste (HTMX + Pico.css), backend PSR-7/15 avec injection de dépendances (PHP-DI). En production (MCO).",
+      "roles": ["Architecte", "Développeur principal", "DevOps"],
+      "highlights": [
+        "Architecture : Slim 4, routing/middlewares PSR-7/15, PHP-DI, Repository + Domain/Infrastructure, logs structurés (Monolog)",
+        "LLM : client API OpenAI custom (cURL), système de prompts & segmentation (CV + offre), réponses structurées Markdown (sanitisation league/commonmark), modèles configurables via env",
+        "UX : interactions HTMX (sans JS lourd), Pico.css, accessibilité, workflow upload → analyse → synthèse, réponse forcée dans la langue UI (FR/EN)",
+        "Prod : Azure App Service, CI/CD, .env (vlucas/phpdotenv), CORS permissif + sessions conditionnelles (Authorization)",
+        "Fichiers : upload PDF/DOCX/TXT/JSON/images, parsing serveur et intégration contextuelle au prompt",
+        "Qualité : PHPStan lvl 6, PSR-12 (PHPCS), PHPUnit avec couverture, audit sécurité intégré"
+      ],
+      "keywords": [
+        "PHP",
+        "Slim Framework 4",
+        "PSR-7",
+        "PSR-15",
+        "PHP-DI",
+        "HTMX",
+        "Pico.css",
+        "OpenAI API",
+        "LLM",
+        "Mailgun API",
+        "league/commonmark",
+        "Monolog",
+        "Azure App Service",
+        "CI/CD",
+        "JSON Resume",
+        "Markdown",
+        "cURL",
+        "I18n",
+        "PHPStan",
+        "PHPCS",
+        "PHPUnit",
+        "Recrutement",
+        "IA générative",
+        "Architecture découplée",
+        "Repository pattern",
+        "Domain-driven design",
+        "Sécurité",
+        "CORS",
+        "Session management"
+      ],
+      "impacts": [
+        "Analyse CV avec recommandations actionnables (score, écarts, points forts)",
+        "Interface accessible et responsive sans framework JS lourd → temps de chargement réduit et coûts d’hébergement maîtrisés",
+        "Journalisation corrélées aux analyses pour traçabilité en production",
+        "Architecture réutilisable pour d'autres apps LLM (parsing documentaire / RAG léger / scoring)",
+        "Chaîne qualité (PHPStan/PHPCS/PHPUnit) → dette technique limitée et onboarding rapide",
+        "Déploiement Azure reproductible via CI/CD (rollback et envs dev/prod séparés)"
+      ]
+    },
+
+    {
+      "name": "Plateforme d'OCR et de workflow documentaire pour opérations douanières",
+      "entity": "Transitaire maritime (Nouvelle-Calédonie)",
+      "type": "Développement spécifique + MCO",
+      "startDate": "2022-01",
+      "status": "MCO en cours",
+      "description": "Système d’OCR et de workflow avancé optimisant la numérisation et la gestion en temps réel des documents de douane (plusieurs centaines de dossiers/jour). MCO toujours en cours.",
+      "highlights": [
+        "Conception de la chaîne d’acquisition et d’OCR (Scanshare)",
+        "Workflows multi-étapes pour classement, validation et routage",
+        "Automatisations et extraction de données via JScript et PHP",
+        "Suivi opérationnel et maintenance corrective/évolutive (MCO) continue"
+      ],
+      "keywords": [
+        "OCR",
+        "Douanes",
+        "Workflow",
+        "Scanshare",
+        "JScript",
+        "PHP",
+        "Numérisation",
+        "Temps réel"
+      ],
+      "roles": ["Architecte", "Développeur principal", "Mainteneur (MCO)"],
+      "impacts": [
+        "Traitement de plusieurs centaines de dossiers/jour",
+        "Réduction des erreurs de saisie via extraction, classement et routage automatique",
+        "Diminution du délai de traitement",
+        "Traçabilité complète des étapes de traitement",
+        "Workflows standardisés entre équipes"
+      ]
+    },
+    {
+      "name": "ERP métier pour la filière bois de santal (traçabilité, production & commerce, RH)",
+      "entity": "Optimium / Client secteur santal",
+      "type": "professional",
+      "startDate": "2020-03",
+      "endDate": "2021-12",
+      "url": "https://www.takone.nc/",
+      "description": "Application Laravel 9 avec Laravel Backpack pour une administration modulaire (droits, menus, CRUD) couvrant l’écosystème santal en Nouvelle-Calédonie. Trois packages privés Optimium : santalbatch (approvisionnement & coutumier), santaltrade (commerce & stocks), santaluser (RH).",
+      "roles": ["Architecte", "Développeur principal", "Chef de projet"],
+      "highlights": [
+        "Gestion forestière : arbres, propriétaires coutumiers, plans de coupe, quotas, certifications (FSC/Bio), primes/régularisations",
+        "Facturation & paiements : factures/lignes par lots, suivi des paiements et états de signature, TGC locale, réglages comptables (comptes, primes)",
+        "Logistique conteneurs : planification (compagnies, statuts, affectations), suivi des expéditions (bois/drèche/produits transformés)",
+        "Stocks & ventes : articles, dépôts, mouvements et transferts, points de vente, clients, encaissement (cash/chèque/carte)",
+        "Ressources humaines : profils collaborateurs, absences, travaux terrain, sanctions, salaires, formations/certifications, validations par e-mail",
+        "Back-office : RBAC, menus multi-espaces, vues Laravel Backpack dédiées, routes personnalisées (webcam/signature)",
+        "Automatisation documentaire : génération PDF (dompdf), exports Excel, calcul des jours ouvrés, notifications e-mail",
+        "Modélisation : modèles app/Models étendant/surchargeant les packages Optimium pour des besoins locaux (attributs calculés, scopes spécifiques)"
+      ],
+      "keywords": [
+        "PHP",
+        "Laravel",
+        "Laravel Backpack",
+        "MySQL",
+        "dompdf",
+        "maatwebsite/excel",
+        "ERP",
+        "Traçabilité",
+        "Workflow",
+        "Réglementation Coutumière",
+        "Plans de coupe",
+        "Quotas",
+        "Certification FSC",
+        "TGC",
+        "Comptabilité",
+        "Containers",
+        "Export",
+        "Stocks",
+        "Point de vente",
+        "RH",
+        "CRUD",
+        "PDF",
+        "Excel",
+        "Notifications"
+      ],
+      "impacts": [
+        "Traçabilité bout-en-bout arbre → lot → conteneur → facture",
+        "Conformité quotas/export et certifications (FSC/Bio)",
+        "Réduction des ressaisies grâce à un modèle unique (forêt/commerce/RH)",
+        "Visibilité temps réel des stocks et ordres (site, entrepôt, conteneur)",
+        "Simplification TGC et écritures comptables via règles paramétrables"
+      ]
+    },
+    {
+      "name": "Programme de migration Microsoft 365 et déploiement SharePoint",
+      "description": "Programme de migration M365 pour une grande collectivité, incluant SharePoint et plus de 200 migrations hybrides.",
+      "highlights": [
+        "Plan de migration et conduite du changement",
+        "Interop on-prem / cloud (hybrid Exchange, Azure AD)",
+        "Gouvernance, sécurité et espaces d'équipe SharePoint"
+      ],
+      "keywords": [
+        "Microsoft 365",
+        "SharePoint",
+        "Exchange Hybrid",
+        "Azure AD",
+        "OneDrive",
+        "Conduite du changement"
+      ],
+      "roles": ["Chef de projet", "Architecte M365"],
+      "entity": "Ville de Dumbéa, Nouvelle Calédonie",
+      "type": "professional",
+      "startDate": "2017-01",
+      "endDate": "2019-12",
+      "url": "https://www.ville-dumbea.nc/",
+      "impacts": [
+        "200+ migrations hybrides menées à bien",
+        "Adoption cadrée de SharePoint/OneDrive (espaces d’équipe)",
+        "Réduction de la dépendance on-prem via Exchange Hybrid",
+        "Gouvernance et sécurité harmonisées (Azure AD, policies)",
+        "Runbook standard accélérant les déploiements"
+      ]
+    },
+    {
+      "name": "Déploiement d'infrastructures Azure",
+      "description": "Mise en place d'infrastructures Azure pour un grand compte (réseaux, sécurité, supervision).",
+      "highlights": [
+        "Landing zone et segmentation réseau",
+        "Sécurisation IAM et politiques",
+        "Supervision et sauvegardes"
+      ],
+      "keywords": [
+        "Azure",
+        "IaaS",
+        "Réseau",
+        "Sécurité",
+        "Monitoring",
+        "Backup"
+      ],
+      "roles": ["Architecte Cloud", "Chef de projet"],
+      "entity": "Groupe ABI",
+      "type": "professional",
+      "startDate": "2018-03",
+      "endDate": "2019-06",
+      "impacts": [
+        "Landing zone standardisée multi-environnements",
+        "Posture sécurité durcie (IAM, policies, segmentation)",
+        "Supervision centralisée (logs/alerting) et sauvegardes couvertes",
+        "Provisioning IaaS/PaaS plus rapide et reproductible",
+        "Maîtrise des coûts via gabarits et tagging FinOps"
+      ]
+    },
+    {
+      "name": "Plateforme de satisfaction client temps réel avec intégration ERP/ITSM et IA",
+      "entity": "Optimium / Clients retail & services",
+      "type": "professional",
+      "startDate": "2020-06",
+      "endDate": "2021-06",
+      "description": "Application Laravel 11 + Laravel Nova pour piloter des enquêtes post-prestations (factures, contrats, interventions) : synchronisation ERP (Sage/CopyPark) et ITSM (GLPI), ciblage automatisé, envois d’e-mails, collecte des réponses et reporting NPS/CSAT exploitable en BI. Les tickets GLPI et CopyPark sont retraités par IA à la volée pour produire une synthèse exploitable.",
+      "roles": ["Concepteur", "Développeur principal", "Chef de projet"],
+      "highlights": [
+        "Back-office Laravel Nova : gestion des campagnes, questions, segments, exclusions et relances",
+        "ETL depuis Sage/CopyPark : import de pièces et création/enrichissement des fiches \"Surveyable\"",
+        "Intégrations GLPI & CopyPark : import des tickets/événements et rapprochement avec les interactions client",
+        "Synthèse IA à la volée des tickets GLPI/CopyPark : résumé opérationnel pour améliorer la perception client",
+        "Automatisation : sélection des interactions éligibles (délai/statuts/filtres) et déclenchement des envois via Laravel Mailable",
+        "Collecte sécurisée : liens dédiés, vérification IP GeoLite (restriction NC), respect de l’ordre des questions et historisation agent",
+        "Reporting : moyennes glissantes, ratios Oui/Non par question, listes récentes et exports pour analyse BI"
+      ],
+      "keywords": [
+        "PHP",
+        "Laravel",
+        "Laravel Nova",
+        "Sage",
+        "CopyPark",
+        "GLPI",
+        "ITSM",
+        "ETL",
+        "Email",
+        "NPS",
+        "CSAT",
+        "IA",
+        "LLM",
+        "GeoLite",
+        "CSV",
+        "BI",
+        "Automatisation",
+        "Post-transactionnel",
+        "LLM OpenAI (API)",
+        "Laravel Mailable",
+        "API"
+      ],
+      "impacts": [
+        "Boucle de feedback post-transactionnelle automatisée",
+        "Synthèses IA actionnables pour le support",
+        "Vision consolidée tickets ↔ interactions ↔ ventes",
+        "Hausse du taux de réponse via ciblage/relances",
+        "Pilotage par tableaux de bord (ratios, moyennes glissantes)"
+      ]
+    },
+    {
+      "name": "Boutiques e-commerce avec synchronisation ERP Sage",
+      "description": "Boutiques en ligne synchronisées (catalogue/stock/commandes) avec Sage.",
+      "highlights": [
+        "Connecteurs catalogue/stock",
+        "Passerelles paiement et facture",
+        "Optimisation SEO et performance"
+      ],
+      "keywords": [
+        "WordPress",
+        "WooCommerce",
+        "Sage ERP",
+        "API",
+        "SEO",
+        "Perf web"
+      ],
+      "roles": ["Développeur", "Intégrateur"],
+      "entity": "Optimium / PME",
+      "type": "professional",
+      "startDate": "2020-02",
+      "endDate": "2021-12",
+      "impacts": [
+        "Synchronisation fiable stock/prix/commandes avec Sage",
+        "Réduction des ruptures et erreurs de tarification",
+        "Facturation et encaissement alignés avec l’ERP",
+        "Amélioration perf/SEO → meilleure conversion organique",
+        "Temps de traitement commande réduit"
+      ]
+    },
+    {
+      "name": "Solution de gestion de paie pour ESAT (travailleurs en situation de handicap)",
+      "entity": "Optimium / APEI – Nouvelle-Calédonie",
+      "type": "professional",
+      "startDate": "2020-04",
+      "endDate": "2021-03",
+      "url": "https://www.apei.nc/",
+      "description": "Application métier Laravel/Laravel Nova pour la gestion de la paie en ESAT (travailleurs handicapés) : calculs de pécule, suivi des droits/absences, génération de bulletins PDF et exports comptables/bancaires, avec traçabilité complète et contrôles spécifiques au contexte protégé.",
+      "roles": ["Concepteur", "Développeur principal", "Chef de projet"],
+      "highlights": [
+        "Administration sous Laravel Nova (accès protégé) : travailleurs, catégories/services/ateliers, tarifs de repas historisés",
+        "Paie mensuelle par travailleur avec contrôle anti-doublon (un pécule/mois), saisie heures/repas/congés/absences/maladie",
+        "Calculs métier : base, brut, retenues (repas & autres), net à payer ; suivi des jours acquis/ajustés et solde de congés",
+        "Workflow d’émission : brouillon avec filigrane « A VERIFIER » → émission définitive ; accès par liens sécurisés et historisation",
+        "Génération de bulletins PDF (Dompdf) et archivage",
+        "Exports opérationnels : journaux paie/congés/jours acquis en Excel ; fichier d’ordres de virement pour la banque",
+        "Spécificités locales sur les bulletins : RIDET, CAFAT, SMG, coordonnées bancaires",
+        "Traçabilité & audits : journalisation des opérations et contrôles de cohérence"
+      ],
+      "keywords": [
+        "PHP",
+        "Laravel",
+        "Laravel Nova",
+        "MySQL",
+        "dompdf",
+        "PhpOffice PhpSpreadsheet",
+        "FastExcel",
+        "ESAT",
+        "Pécule",
+        "Paie",
+        "Travailleurs handicapés",
+        "RIDET",
+        "CAFAT",
+        "SMG",
+        "Comptabilité",
+        "Ordres de virement",
+        "PDF",
+        "Excel",
+        "Audit",
+        "Historisation",
+        "Nouvelle-Calédonie"
+      ],
+      "impacts": [
+        "Bulletins conformes (RIDET, CAFAT, SMG) et archivage PDF",
+        "Baisse des erreurs (contrôles anti-doublon, règles métier)",
+        "Émission sécurisée et traçable (liens, historisation)",
+        "Exports Excel et ordres de virement prêts banque",
+        "Cycle mensuel de paie accéléré pour l’équipe RH"
+      ]
+    },
+    {
+      "name": "Programme de fidélité omnicanal avec application mobile et intégration ERP",
+      "entity": "Optimium / Cheval Distribution – Nouvelle-Calédonie",
+      "type": "professional",
+      "startDate": "2020-05",
+      "endDate": "2021-10",
+      "url": "https://chevaldistribution.nc/fidelite/",
+      "description": "Application Laravel centrée sur la fidélisation client : comptes, points, statuts et bons d’achat, carte/barcode en caisse, intégration POS/ERP via API (XLProg), campagnes e-mail & push pour acquisition, activation et rétention, avec back-office Laravel Nova et tableaux de bord marketing.",
+      "roles": ["Chef de projet", "Concepteur", "Développeur principal"],
+      "highlights": [
+        "Portail client : authentification, tableau de bord points/statut, carte/barcode présentable en caisse",
+        "Génération & suivi des bons : calcul des points cumulés, émissions de coupons, contrôles d’éligibilité et conditions d’utilisation",
+        "Intégration POS/ERP (XLProg) : endpoints pour consulter le solde, valider un bon, enregistrer une facture et déclencher des coupons",
+        "Segmentation & campagnes : segments dynamiques (zones, préférences, magasin favori), relances « vous nous manquez »",
+        "Notifications OneSignal & e-mails (Laravel Mailable) : statut, nouveaux bons, rappels d’expiration",
+        "Back-office Laravel Nova : mouvements de points, gestion des campagnes, analytics, exports",
+        "Reporting & analytics : suivi des conversions/coupons, cohorte par segment, exports CSV pour BI"
+      ],
+      "keywords": [
+        "PHP",
+        "Laravel",
+        "Laravel Nova",
+        "MySQL",
+        "OneSignal",
+        "Mobiloud",
+        "API REST",
+        "Laravel Mailable",
+        "Génération de codes-barres",
+        "API XLProg (ERP/POS)",
+        "Exports CSV",
+        "Fidélité",
+        "Couponing",
+        "Segmentation",
+        "CRM",
+        "Mobile",
+        "Push notifications",
+        "Emailing",
+        "Barcode",
+        "Analytics",
+        "CSV"
+      ],
+      "impacts": [
+        "Vision 360 client et points en temps réel",
+        "Validation en caisse des bons/coupons (fraude limitée)",
+        "Relances ciblées et segments dynamiques",
+        "Augmentation des achats répétés (conversion coupons mesurée)",
+        "Pilotage marketing via analytics et exports BI"
+      ]
+    },
+    {
+      "name": "CRM de prospection et pipeline commercial (architecture multi-tenant)",
+      "entity": "Optimium / Groupe ABI",
+      "type": "professional",
+      "startDate": "2019-01",
+      "endDate": "2019-12",
+      "description": "CRM orienté prospection et pilotage du pipeline commercial : sociétés, contacts, actions, deals et abonnements, avec back-office Laravel Backpack, cloisonnement multi-tenant, calculs de CA attendu et notifications de relance.",
+      "roles": ["Chef de projet", "Concepteur", "Développeur principal"],
+      "highlights": [
+        "Back-office Laravel Backpack : sociétés, contacts, deals, actions, abonnements ; filtres (société, statut, propriétaire, dates) et boutons d’action rapides",
+        "Multi-tenant : scopes automatiques par abonnement/utilisateur pour cloisonner la donnée",
+        "Pipeline commercial : montants pondérés, marges et probabilités de gain → calcul du chiffre d’affaires attendu",
+        "Historisation & audit : actions commerciales versionnées, marquage « réalisé » et listes dédiées",
+        "Notifications e-mail paramétrables par utilisateur (rappels actions/deals) via jobs/queues Laravel",
+        "Authentification fédérée : OAuth2 / Microsoft Azure AD via Microsoft Graph",
+        "Rôles & permissions : Spatie + Backpack Permission Manager (super-admin, admin, utilisateur)"
+      ],
+      "keywords": [
+        "PHP",
+        "Laravel",
+        "Laravel Backpack",
+        "MySQL",
+        "Spatie/laravel-permission",
+        "Microsoft Graph API",
+        "OAuth2",
+        "Laravel Jobs/Queues",
+        "Mail",
+        "RevisionableTrait",
+        "CRM",
+        "Prospection",
+        "Suivi d’affaires",
+        "Pipeline",
+        "Multi-tenant",
+        "Historisation",
+        "Notifications",
+        "Audit"
+      ],
+      "impacts": [
+        "Visibilité du CA attendu (montants pondérés, marges, probas)",
+        "Priorisation des relances et pipeline unifié",
+        "Cloisonnement strict des données par tenant",
+        "Historisation/audit complet des actions commerciales",
+        "Gains de temps via imports O365 et automatisations"
+      ]
+    },
+    {
+      "name": "TF1 – Partage sécurisé de fichiers pour journalistes mobiles",
+      "entity": "TF1",
+      "type": "professional",
+      "startDate": "2013-01",
+      "endDate": "2014-06",
+      "description": "Mise en place d’une solution de partage de fichiers chiffrée pour 1 500 journalistes en mobilité (gouvernance, sécurité, accompagnement métiers).",
+      "roles": ["Chef de projet", "Architecte solution", "Avant-vente"],
+      "highlights": [
+        "Cadrage sécurité & conformité",
+        "Intégration MDM et Single Sign-On",
+        "Déploiement progressif par rédaction/service"
+      ],
+      "keywords": ["File sharing", "Sécurité", "Mobilité", "MDM", "SSO"],
+      "impacts": [
+        "≈1 500 utilisateurs mobiles couverts",
+        "Processus d’échange standardisés entre rédactions",
+        "MDM/SSO validés par la DSI et la sécurité"
+      ]
+    },
+    {
+      "name": "Mazars – Sauvegarde en ligne des postes consultants",
+      "entity": "Mazars",
+      "type": "professional",
+      "startDate": "2013-03",
+      "endDate": "2013-12",
+      "description": "Déploiement et industrialisation de la sauvegarde cloud des PC pour ~1 000 consultants (politiques, supervision, PRA).",
+      "roles": ["Chef de projet", "Architecte"],
+      "highlights": [
+        "Policies de sauvegarde par profils d’usage",
+        "Supervision centralisée & alerting",
+        "Recommandations PRA et tests de restauration"
+      ],
+      "keywords": ["Backup", "Cloud", "Endpoint", "PRA", "Supervision"],
+      "impacts": [
+        "≈1 000 postes protégés",
+        "RTO/RPO documentés et testés",
+        "Restauration poste utilisateur industrialisée"
+      ]
+    },
+    {
+      "name": "OPPBTP – Sauvegarde du SI & infogérance",
+      "entity": "OPPBTP",
+      "type": "professional",
+      "startDate": "2013-05",
+      "endDate": "2014-05",
+      "description": "Mise sous sauvegarde de 70 serveurs et lancement d’un contrat d’infogérance associé (processus, runbook, KPIs).",
+      "roles": ["Chef de projet", "Transition Manager"],
+      "highlights": [
+        "Cartographie & criticité applicative",
+        "Runbook d’exploitation et escalades",
+        "Tableau de bord SLA mensuel"
+      ],
+      "keywords": ["Backup", "Infogérance", "Runbook", "SLA", "Supervision"],
+      "impacts": [
+        "≈70 serveurs couverts par la sauvegarde et la supervision",
+        "Runbook et matrice d’escalade en place",
+        "Suivi SLA mensuel sur KPIs partagés"
+      ]
+    },
+    {
+      "name": "École Polytechnique – MDM à grande échelle",
+      "entity": "École Polytechnique",
+      "type": "professional",
+      "startDate": "2014-01",
+      "endDate": "2014-11",
+      "description": "Cadrage et déploiement d’une solution MDM pour ~5 000 utilisateurs (BYOD & flotte).",
+      "roles": ["Architecte", "Chef de projet"],
+      "highlights": [
+        "Politiques BYOD vs. terminaux gérés",
+        "Self-service onboarding",
+        "Conformité & protections des données"
+      ],
+      "keywords": ["MDM", "BYOD", "Sécurité", "Enrôlement", "Conformité"],
+      "impacts": [
+        "≈5 000 utilisateurs éligibles (BYOD + flotte)",
+        "Onboarding self-service réduisant la charge support",
+        "Conformité et politiques de sécurité unifiées"
+      ]
+    },
+    {
+      "name": "Eau Écarlate – Sauvegarde du SI",
+      "entity": "Eau Écarlate",
+      "type": "professional",
+      "startDate": "2013-07",
+      "endDate": "2013-11",
+      "description": "Externalisation et automatisation des sauvegardes d’environ 20 serveurs avec tests de restauration documentés.",
+      "roles": ["Chef de projet"],
+      "highlights": [
+        "Plan de sauvegarde multi-niveaux",
+        "Tests trimestriels de restauration",
+        "Reporting pour audit"
+      ],
+      "keywords": ["Backup", "Restauration", "Audit", "Monitoring"],
+      "impacts": [
+        "≈20 serveurs couverts avec politiques planifiées",
+        "Restauration testée trimestriellement",
+        "Traçabilité et reporting auditables"
+      ]
+    },
+    {
+      "name": "Hilti – Accès CRM en mobilité",
+      "entity": "Hilti",
+      "type": "professional",
+      "startDate": "2003-01",
+      "endDate": "2004-12",
+      "description": "Accès sécurisé au CRM pour forces de vente terrain (réseaux, APN, SSO, optimisation latence).",
+      "roles": ["Avant-vente", "Chef de projet"],
+      "highlights": [
+        "Tunnel sécurisé & APN dédié",
+        "Optimisation des temps de synchro",
+        "Support utilisateurs et kit de démarrage"
+      ],
+      "keywords": ["Mobilité", "CRM", "VPN", "APN", "SSO"],
+      "impacts": [
+        "Accès sécurisé généralisé à la force de vente",
+        "Temps de synchronisation optimisés en mobilité",
+        "Kit de déploiement et support opérationnels"
+      ]
+    },
+    {
+      "name": "Dulux Valentine – Relevés concurrence mobile",
+      "entity": "Dulux Valentine",
+      "type": "professional",
+      "startDate": "2002-06",
+      "endDate": "2003-06",
+      "description": "Solution de collecte mobile en points de vente (réseau sécurisé, synchro, back-office).",
+      "roles": ["Avant-vente", "Chef de projet"],
+      "highlights": [
+        "Appareils terrain durcis",
+        "Synchronisation offline/online",
+        "Tableaux de bord hebdo"
+      ],
+      "keywords": [
+        "Terrain",
+        "Data capture",
+        "Mobilité",
+        "Synchro",
+        "Reporting"
+      ],
+      "impacts": [
+        "Collecte terrain structurée sur magasins pilotes",
+        "Disponibilité hebdomadaire des indicateurs",
+        "Réduction des ressaisies et erreurs"
+      ]
+    },
+    {
+      "name": "MNEF – Réseau data privé multi-agences",
+      "entity": "MNEF",
+      "type": "professional",
+      "startDate": "2004-04",
+      "endDate": "2005-03",
+      "description": "Mise en place d’un APN dédié pour ~100 agences avec priorisation des flux métier.",
+      "roles": ["Architecte réseau", "Chef de projet"],
+      "highlights": [
+        "Segmentation & QoS par application",
+        "Supervision de bout en bout",
+        "Plan de bascule et tests de charge"
+      ],
+      "keywords": ["APN", "QoS", "MPLS/VPN", "Supervision", "Réseau"],
+      "impacts": [
+        "≈100 agences interconnectées via APN dédié",
+        "Flux métiers priorisés grâce à la QoS",
+        "Exploitation stabilisée via supervision centralisée"
+      ]
+    },
+    {
+      "name": "Douanes françaises – Géolocalisation opérationnelle",
+      "entity": "Douanes",
+      "type": "professional",
+      "startDate": "2005-02",
+      "endDate": "2006-02",
+      "description": "Dispositif de géolocalisation et de communication sécurisée pour agents en intervention.",
+      "roles": ["Chef de projet"],
+      "highlights": [
+        "Sécurité des communications",
+        "Cartographie temps réel",
+        "Formation & support 24/7"
+      ],
+      "keywords": ["Géolocalisation", "Mobilité", "Sécurité", "Temps réel"],
+      "impacts": [
+        "Capacité de localisation temps réel en opérationnel",
+        "Sécurisation des échanges terrain ↔ centre",
+        "Formation et support 24/7 assurés"
+      ]
+    },
+    {
+      "name": "Traderforce – Plateforme temps réel marchés financiers",
+      "entity": "Traderforce",
+      "type": "professional",
+      "startDate": "1999-06",
+      "endDate": "2001-02",
+      "description": "Architecture et réalisation d’une plateforme de données de marché temps réel (stack Microsoft, C++/COM, haute dispo).",
+      "roles": ["Responsable IT", "Chef de projet"],
+      "highlights": [
+        "Architecture HA/Cluster",
+        "Flux data temps réel & ActiveX",
+        "Équipe de 12 développeurs"
+      ],
+      "keywords": ["Temps réel", "C++", "COM/DCOM", "HA/Cluster", "SQL Server"],
+      "impacts": [
+        "Haute disponibilité via cluster",
+        "Traitement et diffusion de flux temps réel",
+        "Coordination d’une équipe de 12 devs"
+      ]
+    },
+    {
+      "name": "L’Oréal – Intranet marketing multilingue",
+      "entity": "L’Oréal",
+      "type": "professional",
+      "startDate": "1998-01",
+      "endDate": "1999-03",
+      "description": "Conception et développement d’un intranet marketing multi-pays (contenus, workflows, droits).",
+      "roles": ["Ingénieur", "Chef de projet"],
+      "highlights": [
+        "Gestion multilingue & droits",
+        "Workflows de publication",
+        "Refonte UX editors"
+      ],
+      "keywords": ["Intranet", "Workflows", "Multilingue", "ASP", "UX"],
+      "impacts": [
+        "Déploiement multi-pays",
+        "Cycle de publication accéléré",
+        "Meilleure gouvernance des contenus"
+      ]
+    },
+    {
+      "name": "AP-HP – Transformation Minitel → site institutionnel",
+      "entity": "AP-HP",
+      "type": "professional",
+      "startDate": "1998-06",
+      "endDate": "1999-05",
+      "description": "Migration d’un service Minitel vers un portail web complet (architecture, contenus, accessibilité).",
+      "roles": ["Ingénieur", "Chef de projet"],
+      "highlights": [
+        "Architecture web & sécurité",
+        "Modèle de contenus et recherche",
+        "Accessibilité & performance"
+      ],
+      "keywords": [
+        "Web",
+        "Portail",
+        "Accessibilité",
+        "Sécurité",
+        "Performance"
+      ],
+      "impacts": [
+        "Migration réussie vers un portail web",
+        "Amélioration de l’accessibilité publique",
+        "Base technique durable pour les évolutions"
+      ]
+    },
+    {
+      "name": "Université d’Antananarivo – Mise en place du Master Informatique",
+      "entity": "Ministère français des Affaires étrangères / Univ. Antananarivo",
+      "type": "professional",
+      "startDate": "1995-09",
+      "endDate": "1997-09",
+      "description": "Conception du cursus, transfert de compétences et encadrement des enseignants pour créer un Master de référence.",
+      "roles": ["Consultant pédagogique"],
+      "highlights": [
+        "Blueprint pédagogique complet",
+        "Formation des formateurs",
+        "Pérennisation du programme"
+      ],
+      "keywords": ["Éducation", "Curriculum", "Formation", "Gouvernance"],
+      "impacts": [
+        "Cursus Master structuré et opérationnel",
+        "Équipe locale formée et autonome",
+        "Cadre pérenne pour la filière informatique"
+      ]
+    }
+  ],
+
+  "skills": [
+    {
+      "name": "Développement back & web",
+      "keywords": [
+        "PHP",
+        "Laravel",
+        "Laravel Nova",
+        "Laravel Backpack",
+        "Perl",
+        "Java",
+        "JavaScript",
+        "HTML",
+        ".NET"
+      ]
+    },
+    {
+      "name": "Bases de données",
+      "keywords": ["MySQL", "MariaDB", "Microsoft SQL Server"]
+    },
+    {
+      "name": "Cloud & virtualisation",
+      "keywords": [
+        "Microsoft Azure",
+        "IaaS",
+        "Réseau",
+        "IAM/Policies",
+        "Monitoring",
+        "Backup",
+        "Azure App Service",
+        "OVH",
+        "Microsoft Hyper-V"
+      ]
+    },
+    {
+      "name": "Digital Workplace (M365)",
+      "keywords": [
+        "Microsoft 365",
+        "SharePoint",
+        "Exchange Hybrid",
+        "Azure AD",
+        "OneDrive",
+        "Gouvernance M365"
+      ]
+    },
+    {
+      "name": "Intégrations ERP & e-commerce",
+      "keywords": [
+        "Sage ERP",
+        "Connecteurs catalogue/stock/commandes",
+        "Facturation",
+        "Passerelles de paiement",
+        "Synchronisation ERP↔e-commerce",
+        "WooCommerce",
+        "WordPress"
+      ]
+    },
+    {
+      "name": "Data, analytics & ETL",
+      "keywords": [
+        "ETL léger",
+        "Tableaux de bord BI",
+        "Power BI",
+        "NPS/CSAT",
+        "Alerting",
+        "Reporting"
+      ]
+    },
+    {
+      "name": "IA & automatisation",
+      "keywords": [
+        "Intégration LLM via API",
+        "Extraction d’insights",
+        "Assistants virtuels",
+        "Génération de rapports",
+        "Automatisation"
+      ]
+    },
+    {
+      "name": "Mobile & MDM",
+      "keywords": [
+        "Android",
+        "iOS",
+        "Citrix XenMobile",
+        "BlackBerry",
+        "MDM",
+        "MobiLoud",
+        "Application mobile"
+      ]
+    },
+    {
+      "name": "Réseaux & sécurité",
+      "keywords": [
+        "TCP/IP",
+        "SIP",
+        "VoIP/ToIP",
+        "LAN",
+        "WAN",
+        "MPLS",
+        "VPN",
+        "3G",
+        "4G",
+        "5G",
+        "Wi-Fi",
+        "Sécurité SI"
+      ]
+    },
+    {
+      "name": "OS & environnements",
+      "keywords": ["Windows Server", "UNIX", "Linux"]
+    },
+    {
+      "name": "Architecture & delivery",
+      "keywords": [
+        "Architecture de solutions",
+        "Interop on-prem/cloud",
+        "Supervision",
+        "Sauvegardes",
+        "Traçabilité",
+        "Génération de certificats"
+      ]
+    },
+    {
+      "name": "Méthodes & gestion de projet",
+      "keywords": [
+        "PMI",
+        "ITIL (bonnes pratiques)",
+        "Cadrage",
+        "Processus commande→delivery→facturation",
+        "Conduite du changement",
+        "Adoption utilisateurs",
+        "POC→Production",
+        "Infogérance",
+        "Microsoft Project",
+        "Contrats agiles"
+      ]
+    },
+    {
+      "name": "Management & leadership",
+      "keywords": [
+        "Direction de division",
+        "Recrutement & encadrement",
+        "Management d’équipes",
+        "Pilotage pluridisciplinaire",
+        "Coaching commercial",
+        "Conduite de réunions",
+        "Gestion de conflits",
+        "Prise de parole",
+        "KPI & tableaux de bord"
+      ]
+    },
+    {
+      "name": "Business development & produit",
+      "keywords": [
+        "Construction d’offres",
+        "Go-to-market",
+        "Référencement partenaires",
+        "Avant-vente",
+        "Pipeline & forecast",
+        "Pilotage de deals",
+        "Marketing digital",
+        "Appels d’offres",
+        "Pricing & négociation"
+      ]
+    },
+    {
+      "name": "Web performance & SEO",
+      "keywords": ["Optimisation performance", "SEO"]
+    },
+    {
+      "name": "Secteurs & contextes",
+      "keywords": [
+        "PME",
+        "Collectivités",
+        "Services publics",
+        "Médico-social",
+        "Retail & services",
+        "Télécoms B2B",
+        "Traçabilité bois de santal",
+        "Plateformes de trading"
+      ]
+    }
+  ],
+
+  "languages": [
+    { "language": "Français", "fluency": "Langue maternelle" },
+    { "language": "Anglais", "fluency": "Maîtrise professionnelle" }
+  ],
+
+  "education": [
+    {
+      "institution": "EFREI - Grande école du numérique - Paris, France",
+      "area": "Génie informatique",
+      "url": "https://www.efrei.fr/",
+      "studyType": "Diplôme d'ingénieur en Informatique (Master)",
+      "startDate": "1992-01",
+      "endDate": "1995-12"
+    },
+    {
+      "institution": "IUT de Cachan - France",
+      "area": "Génie Électrique et Informatique Industrielle",
+      "studyType": "DUT en Génie Électrique et Informatique Industrielle (GEII)",
+      "startDate": "1990-01",
+      "endDate": "1992-12"
+    },
+    {
+      "institution": "Lycée Saint-Louis - Paris, France",
+      "area": "Classes préparatoires aux grandes écoles (CPGE)",
+      "studyType": "Mathématiques supérieures, biologie, chimie, physique, sciences de la Terre",
+      "startDate": "1989-01",
+      "endDate": "1990-12"
+    },
+    {
+      "institution": "Bouygues Telecom – Campus (Université interne)",
+      "studyType": "Parcours managérial interne (« Manager en marche »)",
+      "area": "Management et leadership",
+      "startDate": "2013-01",
+      "endDate": "2014-12",
+      "courses": [
+        "Prise de poste & posture managériale",
+        "Leadership opérationnel",
+        "Management d’équipe & délégation",
+        "Communication managériale & feedback",
+        "Pilotage par objectifs (OKR)",
+        "Conduite & accompagnement du changement"
+      ]
+    },
+    {
+      "institution": "Kahler Communication (France) – organisme agréé",
+      "studyType": "Formation Process Communication Model (PCM)",
+      "area": "Communication interpersonnelle & management",
+      "startDate": "2009-01",
+      "endDate": "2009-12",
+      "courses": [
+        "Types de personnalité (Base & Phase), drivers et motivations",
+        "Canaux de communication & portes d’entrée",
+        "Gestion du stress (niveaux 1/2/3) et stratégies d’intervention",
+        "Adaptation managériale et prévention des mécommunications"
+      ]
+    },
+    {
+      "institution": "Actecil",
+      "studyType": "Formation RGPD (Règlement Général sur la Protection des Données)",
+      "area": "Protection des données & conformité",
+      "startDate": "2018-01",
+      "endDate": "2018-12",
+      "courses": [
+        "Cadre légal RGPD : principes (licéité, minimisation, finalité)",
+        "Cartographie des traitements & tenue du registre",
+        "Analyse d’impact (AIPD/DPIA) : méthode et critères",
+        "Droits des personnes & procédures de réponse",
+        "Contrats sous-traitants (art. 28) & transferts hors UE",
+        "Sécurité, violations de données & notifications",
+        "Gouvernance de la conformité & rôle du DPO"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "TOEFL iBT – 95/120",
+      "issuer": "ETS",
+      "date": "2014-12",
+      "url": "https://www.ets.org/toefl"
+    }
+  ]
+}
