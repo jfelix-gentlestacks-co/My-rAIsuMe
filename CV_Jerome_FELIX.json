@@ -1266,3 +1266,10 @@
     }
   ]
 }
+{
+    "statusCode": 500,
+    "error": {
+        "type": "SERVER_ERROR",
+        "description": "ERROR: Symfony\\Component\\Translation\\t(): Implicitly marking parameter $domain as nullable is deprecated, the explicit nullable type must be used instead on line 18 in file \/home\/site\/wwwroot\/vendor\/symfony\/translation\/Resources\/functions.php."
+    }
+}
