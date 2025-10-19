@@ -6,11 +6,11 @@
     "email": "j.felix@gentlestacks.co",
     "phone": "+61 419 594 023",
     "url": "https://gentlestacks.co",
-    "summary": "Architecte logiciel & consultant IT avec 25+ ans d'expérience, spécialisé dans la conception et le développement de solutions métier sur mesure (Laravel/PHP, Python, JavaScript). Expert en architecture cloud Azure, intégration de systèmes complexes (ERP, e-commerce, OCR) et transformation digitale. A livré des projets stratégiques pour PME, collectivités et grands comptes dans les télécoms, retail, industrie et santé. Intègre l'IA générative aux systèmes existants (automatisation, insights). Leader pragmatique orienté résultats et adoption utilisateur. Basé à Melbourne (AU) avec société en Nouvelle-Calédonie. Interventions remote worldwide avec avantage du décalage horaire pour support multi-fuseaux (Europe/Asie/Pacifique). Déplacements sur site possibles en EU, NC et ANZ selon nécessité projet.",
+    "summary": "Architecte logiciel & consultant IT avec 25+ ans d'expérience, spécialisé dans la conception et le développement de solutions métier sur mesure (Laravel/PHP, Python, JavaScript). Expert en architecture cloud Azure, intégration de systèmes complexes (ERP, e-commerce, OCR) et transformation digitale. A livré des projets stratégiques pour PME, collectivités et grands comptes dans les télécoms, retail, industrie et santé. Intègre l'IA générative aux systèmes existants (automatisation, insights). Leader pragmatique orienté résultats et adoption utilisateur. Basé à Nouméa en Nouvelle-Calédonie. Interventions remote worldwide avec avantage du décalage horaire pour support multi-fuseaux (Europe/Asie/Pacifique). Déplacements sur site possibles en EU, NC et ANZ selon nécessité projet.",
     "location": {
-      "city": "Melbourne",
-      "region": "Victoria",
-      "countryCode": "AU"
+      "city": "Nouméa",
+      "region": "Nouvelle-Calédonie",
+      "countryCode": "NC"
     },
     "meta": {
       "companyBase": "Nouméa, Nouvelle-Calédonie",
@@ -20,26 +20,12 @@
       "availability": "immédiate",
       "workPreferences": [
         "Télétravail mondial",
-        "Présentiel ponctuel (Europe / Australie / Nouvelle-Calédonie)"
+        "Présentiel ponctuel (Europe / Australie / Nouvelle-Zélande / Nouvelle-Calédonie)"
       ],
       "timezones": [
         "UTC+10/11 (AEST/AEDT)",
         "Recouvrement Europe (CET/CEST)",
         "Recouvrement Amérique (ET/PT)"
-      ],
-      "overlapExamples": [
-        {
-          "clientRegion": "Europe (CET/CEST)",
-          "typicalOverlap": "≈08h00–12h00 Europe ↔ 18h00–22h00 Australie (selon DST)"
-        },
-        {
-          "clientRegion": "Amérique de l'Est (ET)",
-          "typicalOverlap": "≈16h00–20h00 ET ↔ 06h00–10h00 Australie (lendemain)"
-        },
-        {
-          "clientRegion": "Amérique de l'Ouest (PT)",
-          "typicalOverlap": "≈13h00–17h00 PT ↔ 06h00–10h00 Australie (lendemain)"
-        }
       ],
       "engagementModes": ["Mission freelance", "Forfait projet", "TJM (régie)"],
       "preferredSectors": [
@@ -305,13 +291,13 @@
 
   "projects": [
     {
-      "name": "rAIsuMe – Analyse de CV par IA pour l'aide au recrutement",
+      "name": "rAIsuMe – Démonstrateur d'analyse de CV par IA pour l'aide au recrutement",
       "entity": "gentlestacks.co (projet personnel / démonstrateur)",
       "type": "professional",
       "startDate": "2025-10",
       "endDate": "2025-10",
       "url": "https://raisume.gentlestacks.co/",
-      "description": "Application one-page (Slim 4, PHP) qui évalue un CV (JSON Resume) face à une offre d'emploi ou à des questions recruteur. UI minimaliste (HTMX + Pico.css), backend PSR-7/15 avec injection de dépendances (PHP-DI). En production (MCO).",
+      "description": "Démonstrateur one-page (Slim 4, PHP) qui évalue un CV (JSON Resume) face à une offre d'emploi ou à des questions recruteur. UI minimaliste (HTMX + Pico.css), backend PSR-7/15 avec injection de dépendances (PHP-DI). En production (MCO).",
       "roles": ["Architecte", "Développeur principal", "DevOps"],
       "highlights": [
         "Architecture : Slim 4, routing/middlewares PSR-7/15, PHP-DI, Repository + Domain/Infrastructure, logs structurés (Monolog)",
