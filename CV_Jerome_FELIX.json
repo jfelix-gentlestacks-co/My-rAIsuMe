@@ -76,6 +76,7 @@
         "Python",
         "Django",
         "JavaScript",
+        "Zoho Projects",
         "Architecture logicielle",
         "ERP",
         "OCR",
@@ -120,6 +121,7 @@
         "WordPress",
         "WooCommerce",
         "PHP",
+        "JavaScript",
         "MySQL",
         "Azure App Service",
         "OVH",
@@ -309,6 +311,7 @@
       ],
       "keywords": [
         "PHP",
+        "JavaScript",
         "Slim Framework 4",
         "PSR-7",
         "PSR-15",
@@ -363,6 +366,8 @@
       ],
       "keywords": [
         "OCR",
+        "Lecture automatique de documents",
+        "Reconnaissance automatique de documents",
         "Douanes",
         "Workflow",
         "Scanshare",
@@ -401,11 +406,12 @@
       ],
       "keywords": [
         "PHP",
+        "JavaScript",
         "Laravel",
         "Laravel Backpack",
         "MySQL",
-        "dompdf",
-        "maatwebsite/excel",
+        "Génération PDF",
+        "Export PDF",
         "ERP",
         "Traçabilité",
         "Workflow",
@@ -474,6 +480,8 @@
       "keywords": [
         "Azure",
         "IaaS",
+        "Haute disponibilité",
+        "Redondance",
         "Réseau",
         "Sécurité",
         "Monitoring",
@@ -489,7 +497,7 @@
         "Posture sécurité durcie (IAM, policies, segmentation)",
         "Supervision centralisée (logs/alerting) et sauvegardes couvertes",
         "Provisioning IaaS/PaaS plus rapide et reproductible",
-        "Maîtrise des coûts via gabarits et tagging FinOps"
+        "Maîtrise des coûts"
       ]
     },
     {
@@ -511,6 +519,7 @@
       ],
       "keywords": [
         "PHP",
+        "JavaScript",
         "Laravel",
         "Laravel Nova",
         "Sage",
@@ -556,7 +565,7 @@
         "SEO",
         "Perf web"
       ],
-      "roles": ["Développeur", "Intégrateur"],
+      "roles": ["Développeur", "Intégrateur", "Chef de projet"],
       "entity": "Optimium / PME",
       "type": "professional",
       "startDate": "2020-02",
@@ -590,29 +599,25 @@
       ],
       "keywords": [
         "PHP",
+        "JavaScript",
         "Laravel",
         "Laravel Nova",
         "MySQL",
-        "dompdf",
-        "PhpOffice PhpSpreadsheet",
-        "FastExcel",
-        "ESAT",
-        "Pécule",
+        "Génération PDF",
+        "Export PDF",
+        "Génération Excel",
+        "Export Excel",
         "Paie",
         "Travailleurs handicapés",
         "RIDET",
         "CAFAT",
-        "SMG",
         "Comptabilité",
         "Ordres de virement",
-        "PDF",
-        "Excel",
         "Audit",
-        "Historisation",
-        "Nouvelle-Calédonie"
+        "Historisation"
       ],
       "impacts": [
-        "Bulletins conformes (RIDET, CAFAT, SMG) et archivage PDF",
+        "Bulletins conformes (RIDET, CAFAT) et archivage PDF",
         "Baisse des erreurs (contrôles anti-doublon, règles métier)",
         "Émission sécurisée et traçable (liens, historisation)",
         "Exports Excel et ordres de virement prêts banque",
@@ -639,6 +644,7 @@
       ],
       "keywords": [
         "PHP",
+        "JavaScript",
         "Laravel",
         "Laravel Nova",
         "MySQL",
@@ -687,6 +693,7 @@
       ],
       "keywords": [
         "PHP",
+        "JavaScript",
         "Laravel",
         "Laravel Backpack",
         "MySQL",
@@ -999,7 +1006,15 @@
         "Java",
         "JavaScript",
         "HTML",
-        ".NET"
+        ".NET",
+        "C",
+        "C++",
+        "ASP",
+        "API REST",
+        "Génération PDF",
+        "Génération Excel",
+        "Automatisation",
+        "Temps réel"
       ]
     },
     {
@@ -1015,6 +1030,7 @@
         "IAM/Policies",
         "Monitoring",
         "Backup",
+        "Cost management",
         "Azure App Service",
         "OVH",
         "Microsoft Hyper-V"
