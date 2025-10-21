@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Jérôme FELIX",
-    "label": "Consultant IT & Architecte logiciel (indépendant)",
+    "label": "Architecte IA & automatisation intégrée au SI | CTO fractionnel",
     "email": "j.felix@gentlestacks.co",
     "phone": "+61 419 594 023",
     "url": "https://gentlestacks.co",
-    "summary": "Architecte logiciel & consultant IT avec 25+ ans d'expérience, spécialisé dans la conception et le développement de solutions métier sur mesure (Laravel/PHP, Python, JavaScript). Expert en architecture cloud Azure, intégration de systèmes complexes (ERP, e-commerce, OCR) et transformation digitale. A livré des projets stratégiques pour PME, collectivités et grands comptes dans les télécoms, retail, industrie et santé. Intègre l'IA générative aux systèmes existants (automatisation, insights). Leader pragmatique orienté résultats et adoption utilisateur. Basé à Nouméa en Nouvelle-Calédonie. Interventions remote worldwide avec avantage du décalage horaire pour support multi-fuseaux (Europe/Asie/Pacifique). Déplacements sur site possibles en EU, NC et ANZ selon nécessité projet.",
+    "summary": "Architecte de solutions IA & automatisation avec 25+ ans d'expérience en architecture SI, intégration d'applications (ERP/CRM/GLPI, e‑commerce), et gouvernance cloud (Azure). J'intègre pragmatiquement l'IA générative et l'automatisation dans les processus existants pour accélérer la valeur (POC→industrialisation), tout en assurant la continuité opérationnelle. Interventions en mode conseil/architecture ou CTO fractionnel (roadmaps, décisions build/buy, mentoring d’équipes). Basé en Nouvelle‑Calédonie, interventions remote worldwide (UE/ANZ/NC). ",
     "location": {
       "city": "Nouméa",
       "region": "Nouvelle-Calédonie",
@@ -19,7 +19,7 @@
       "onsiteTravel": "missions ponctuelles sur demande (UE/ANZ/NC)",
       "availability": "immédiate",
       "workPreferences": [
-        "Télétravail mondial",
+        "Remote mondial",
         "Présentiel ponctuel (Europe / Australie / Nouvelle-Zélande / Nouvelle-Calédonie)"
       ],
       "timezones": [
@@ -33,7 +33,11 @@
         "PME",
         "Retail / Services",
         "Industrie"
-      ]
+      ],
+      "positionnement": {
+        "axe_principal": "IA & Automatisation intégrée au SI",
+        "axe_secondaire": "CTO fractionnel"
+      }
     },
     "profiles": [
       {
@@ -43,60 +47,33 @@
       }
     ]
   },
-
   "work": [
     {
       "name": "gentlestacks.co",
-      "position": "Consultant IT & Architecte logiciel (indépendant)",
+      "position": "Architecte IA & automatisation | CTO fractionnel",
       "url": "https://gentlestacks.co",
       "location": "Nouméa, Nouvelle-Calédonie",
-      "summary": "Conseil et développement logiciel. Architecture applicative & systèmes, MCO, intégration IA, pilotage de projets cloud (Azure) pour PME/collectivités en NC et ANZ.",
+      "summary": "Conseil stratégique et architecture de solutions d’IA & d’automatisation intégrées au SI (ERP/CRM/GLPI, e‑commerce), modernisation et intégration cloud (Azure), pilotage POC→prod, et interventions en CTO fractionnel (roadmaps, arbitrages techniques, mentoring).",
       "startDate": "2025-08",
       "highlights": [
-        "Conception et mise en œuvre de solutions IT innovantes, alignées sur les enjeux métier",
-        "Expertise en gestion de projets et développement logiciel, avec méthodologies Agile et vision stratégique",
-        "Développement sur mesure d’applications web et mobiles (Laravel, Laravel Nova, PHP, Python, Django, JavaScript)",
-        "Conception d’architectures logicielles avancées : ERP, OCR haute précision, interconnexion de systèmes métiers",
-        "Mise en place et gestion d’infrastructures cloud (Azure, OVH) et de solutions SaaS clés en main",
-        "Accompagnement en gestion de projet et conseil IT : MOA, audit SI, formation, coaching technique, sécurité et RGPD",
-        "Expérience multisectorielle : industrie, télécoms, santé, luxe, finance, énergie, distribution"
+        "Cadrage cas d’usage IA et POC rapides puis intégration aux applications existantes",
+        "Automatisation documentaire & OCR, workflows et interconnexions ERP/ITSM/e‑commerce",
+        "CTO fractionnel : roadmaps, décisions build/buy/partner, gouvernance et mentoring d’équipes",
+        "Cloud & MCO : Azure, CI/CD, supervision et sécurité pratiques"
       ],
       "keywords": [
-        "Agile",
-        "Scrum",
-        "PMI",
-        "Gestion de projet",
-        "Conseil IT",
-        "Développement sur mesure",
-        "Applications web",
-        "Applications mobiles",
-        "Laravel",
-        "Laravel Nova",
-        "PHP",
-        "Python",
-        "Django",
-        "JavaScript",
-        "Zoho Projects",
-        "Architecture logicielle",
-        "ERP",
+        "IA générative",
+        "LLM",
+        "Automatisation",
+        "Intégration SI",
+        "ERP/CRM/GLPI",
+        "API",
         "OCR",
-        "Intégration de systèmes",
+        "Workflows",
         "Azure",
-        "OVH",
-        "Hébergement cloud",
-        "SaaS",
-        "Audit SI",
-        "Formation",
-        "Coaching technique",
-        "Cybersécurité",
-        "RGPD",
-        "Industrie",
-        "Télécoms",
-        "Santé",
-        "Luxe",
-        "Finance",
-        "Énergie",
-        "Distribution"
+        "CI/CD",
+        "Gouvernance",
+        "CTO fractionnel"
       ]
     },
     {
@@ -290,67 +267,56 @@
       "keywords": ["Enseignement", "Curriculum design", "Formation"]
     }
   ],
-
   "projects": [
     {
-      "name": "rAIsuMe – Démonstrateur d'analyse de CV par IA pour l'aide au recrutement",
-      "entity": "gentlestacks.co (projet personnel / démonstrateur)",
+      "name": "Plateforme de satisfaction client temps réel avec intégration ERP/ITSM et IA",
+      "entity": "Optimium / Clients retail & services",
       "type": "professional",
-      "startDate": "2025-10",
-      "endDate": "2025-10",
-      "url": "https://raisume.gentlestacks.co/",
-      "description": "Démonstrateur one-page (Slim 4, PHP) qui évalue un CV (JSON Resume) face à une offre d'emploi ou à des questions recruteur. UI minimaliste (HTMX + Pico.css), backend PSR-7/15 avec injection de dépendances (PHP-DI). En production (MCO).",
-      "roles": ["Architecte", "Développeur principal", "DevOps"],
+      "startDate": "2020-06",
+      "endDate": "2021-06",
+      "description": "Application Laravel 11 + Laravel Nova pour piloter des enquêtes post-prestations (factures, contrats, interventions) : synchronisation ERP (Sage/CopyPark) et ITSM (GLPI), ciblage automatisé, envois d’e-mails, collecte des réponses et reporting NPS/CSAT exploitable en BI. Les tickets GLPI et CopyPark sont retraités par IA à la volée pour produire une synthèse exploitable.",
+      "roles": ["Concepteur", "Développeur principal", "Chef de projet"],
       "highlights": [
-        "Architecture : Slim 4, routing/middlewares PSR-7/15, PHP-DI, Repository + Domain/Infrastructure, logs structurés (Monolog)",
-        "LLM : client API OpenAI custom (cURL), système de prompts & segmentation (CV + offre), réponses structurées Markdown (sanitisation league/commonmark), modèles configurables via env",
-        "UX : interactions HTMX (sans JS lourd), Pico.css, accessibilité, workflow upload → analyse → synthèse, réponse forcée dans la langue UI (FR/EN)",
-        "Prod : Azure App Service, CI/CD, .env (vlucas/phpdotenv), CORS permissif + sessions conditionnelles (Authorization)",
-        "Fichiers : upload PDF/DOCX/TXT/JSON/images, parsing serveur et intégration contextuelle au prompt",
-        "Qualité : PHPStan lvl 6, PSR-12 (PHPCS), PHPUnit avec couverture, audit sécurité intégré"
+        "Back-office Laravel Nova : gestion des campagnes, questions, segments, exclusions et relances",
+        "ETL depuis Sage/CopyPark : import de pièces et création/enrichissement des fiches \"Surveyable\"",
+        "Intégrations GLPI & CopyPark : import des tickets/événements et rapprochement avec les interactions client",
+        "Synthèse IA à la volée des tickets GLPI/CopyPark : résumé opérationnel pour améliorer la perception client",
+        "Automatisation : sélection des interactions éligibles (délai/statuts/filtres) et déclenchement des envois via Laravel Mailable",
+        "Collecte sécurisée : liens dédiés, vérification IP GeoLite (restriction NC), respect de l’ordre des questions et historisation agent",
+        "Reporting : moyennes glissantes, ratios Oui/Non par question, listes récentes et exports pour analyse BI"
       ],
       "keywords": [
         "PHP",
         "JavaScript",
-        "Slim Framework 4",
-        "PSR-7",
-        "PSR-15",
-        "PHP-DI",
-        "HTMX",
-        "Pico.css",
-        "OpenAI API",
+        "Laravel",
+        "Laravel Nova",
+        "Sage",
+        "CopyPark",
+        "GLPI",
+        "ITSM",
+        "ETL",
+        "Email",
+        "NPS",
+        "CSAT",
+        "IA",
         "LLM",
-        "Mailgun API",
-        "league/commonmark",
-        "Monolog",
-        "Azure App Service",
-        "CI/CD",
-        "JSON Resume",
-        "Markdown",
-        "cURL",
-        "I18n",
-        "PHPStan",
-        "PHPCS",
-        "PHPUnit",
-        "Recrutement",
-        "IA générative",
-        "Architecture découplée",
-        "Repository pattern",
-        "Domain-driven design",
-        "Sécurité",
-        "CORS",
-        "Session management"
+        "GeoLite",
+        "CSV",
+        "BI",
+        "Automatisation",
+        "Post-transactionnel",
+        "LLM OpenAI (API)",
+        "Laravel Mailable",
+        "API"
       ],
       "impacts": [
-        "Analyse CV avec recommandations actionnables (score, écarts, points forts)",
-        "Interface accessible et responsive sans framework JS lourd → temps de chargement réduit et coûts d’hébergement maîtrisés",
-        "Journalisation corrélées aux analyses pour traçabilité en production",
-        "Architecture réutilisable pour d'autres apps LLM (parsing documentaire / RAG léger / scoring)",
-        "Chaîne qualité (PHPStan/PHPCS/PHPUnit) → dette technique limitée et onboarding rapide",
-        "Déploiement Azure reproductible via CI/CD (rollback et envs dev/prod séparés)"
+        "Boucle de feedback post-transactionnelle automatisée",
+        "Synthèses IA actionnables pour le support",
+        "Vision consolidée tickets ↔ interactions ↔ ventes",
+        "Hausse du taux de réponse via ciblage/relances",
+        "Pilotage par tableaux de bord (ratios, moyennes glissantes)"
       ]
     },
-
     {
       "name": "Plateforme d'OCR et de workflow documentaire pour opérations douanières",
       "entity": "Transitaire maritime (Nouvelle-Calédonie)",
@@ -366,6 +332,7 @@
       ],
       "keywords": [
         "OCR",
+        "LAD/RAD",
         "Lecture automatique de documents",
         "Reconnaissance automatique de documents",
         "Douanes",
@@ -440,6 +407,65 @@
       ]
     },
     {
+      "name": "rAIsuMe – Démonstrateur d'analyse de CV par IA pour l'aide au recrutement",
+      "entity": "gentlestacks.co",
+      "type": "Démonstrateur",
+      "startDate": "2025-10",
+      "endDate": "2025-10",
+      "url": "https://raisume.gentlestacks.co/",
+      "description": "Démonstrateur one-page (Slim 4, PHP) qui évalue un CV (JSON Resume) face à une offre d'emploi ou à des questions recruteur. UI minimaliste (HTMX + Pico.css), backend PSR-7/15 avec injection de dépendances (PHP-DI). En production (MCO).",
+      "roles": ["Architecte", "Développeur principal", "DevOps"],
+      "highlights": [
+        "Architecture : Slim 4, routing/middlewares PSR-7/15, PHP-DI, Repository + Domain/Infrastructure, logs structurés (Monolog)",
+        "LLM : client API OpenAI custom (cURL), système de prompts & segmentation (CV + offre), réponses structurées Markdown (sanitisation league/commonmark), modèles configurables via env",
+        "UX : interactions HTMX (sans JS lourd), Pico.css, accessibilité, workflow upload → analyse → synthèse, réponse forcée dans la langue UI (FR/EN)",
+        "Prod : Azure App Service, CI/CD, .env (vlucas/phpdotenv), CORS permissif + sessions conditionnelles (Authorization)",
+        "Fichiers : upload PDF/DOCX/TXT/JSON/images, parsing serveur et intégration contextuelle au prompt",
+        "Qualité : PHPStan lvl 6, PSR-12 (PHPCS), PHPUnit avec couverture, audit sécurité intégré"
+      ],
+      "keywords": [
+        "PHP",
+        "JavaScript",
+        "Slim Framework 4",
+        "PSR-7",
+        "PSR-15",
+        "PHP-DI",
+        "HTMX",
+        "Pico.css",
+        "OpenAI API",
+        "LLM",
+        "Mailgun API",
+        "league/commonmark",
+        "Monolog",
+        "Azure App Service",
+        "CI/CD",
+        "JSON Resume",
+        "Markdown",
+        "cURL",
+        "I18n",
+        "PHPStan",
+        "PHPCS",
+        "PHPUnit",
+        "Recrutement",
+        "IA générative",
+        "Architecture découplée",
+        "Repository pattern",
+        "Domain-driven design",
+        "Sécurité",
+        "CORS",
+        "Session management"
+      ],
+      "impacts": [
+        "Analyse CV avec recommandations actionnables (score, écarts, points forts)",
+        "Interface accessible et responsive sans framework JS lourd → temps de chargement réduit et coûts d’hébergement maîtrisés",
+        "Journalisation corrélées aux analyses pour traçabilité en production",
+        "Architecture réutilisable pour d'autres apps LLM (parsing documentaire / RAG léger / scoring)",
+        "Chaîne qualité (PHPStan/PHPCS/PHPUnit) → dette technique limitée et onboarding rapide",
+        "Déploiement Azure reproductible via CI/CD (rollback et envs dev/prod séparés)"
+      ]
+    },
+
+    {
       "name": "Programme de migration Microsoft 365 et déploiement SharePoint",
       "description": "Programme de migration M365 pour une grande collectivité, incluant SharePoint et plus de 200 migrations hybrides.",
       "highlights": [
@@ -498,55 +524,6 @@
         "Supervision centralisée (logs/alerting) et sauvegardes couvertes",
         "Provisioning IaaS/PaaS plus rapide et reproductible",
         "Maîtrise des coûts"
-      ]
-    },
-    {
-      "name": "Plateforme de satisfaction client temps réel avec intégration ERP/ITSM et IA",
-      "entity": "Optimium / Clients retail & services",
-      "type": "professional",
-      "startDate": "2020-06",
-      "endDate": "2021-06",
-      "description": "Application Laravel 11 + Laravel Nova pour piloter des enquêtes post-prestations (factures, contrats, interventions) : synchronisation ERP (Sage/CopyPark) et ITSM (GLPI), ciblage automatisé, envois d’e-mails, collecte des réponses et reporting NPS/CSAT exploitable en BI. Les tickets GLPI et CopyPark sont retraités par IA à la volée pour produire une synthèse exploitable.",
-      "roles": ["Concepteur", "Développeur principal", "Chef de projet"],
-      "highlights": [
-        "Back-office Laravel Nova : gestion des campagnes, questions, segments, exclusions et relances",
-        "ETL depuis Sage/CopyPark : import de pièces et création/enrichissement des fiches \"Surveyable\"",
-        "Intégrations GLPI & CopyPark : import des tickets/événements et rapprochement avec les interactions client",
-        "Synthèse IA à la volée des tickets GLPI/CopyPark : résumé opérationnel pour améliorer la perception client",
-        "Automatisation : sélection des interactions éligibles (délai/statuts/filtres) et déclenchement des envois via Laravel Mailable",
-        "Collecte sécurisée : liens dédiés, vérification IP GeoLite (restriction NC), respect de l’ordre des questions et historisation agent",
-        "Reporting : moyennes glissantes, ratios Oui/Non par question, listes récentes et exports pour analyse BI"
-      ],
-      "keywords": [
-        "PHP",
-        "JavaScript",
-        "Laravel",
-        "Laravel Nova",
-        "Sage",
-        "CopyPark",
-        "GLPI",
-        "ITSM",
-        "ETL",
-        "Email",
-        "NPS",
-        "CSAT",
-        "IA",
-        "LLM",
-        "GeoLite",
-        "CSV",
-        "BI",
-        "Automatisation",
-        "Post-transactionnel",
-        "LLM OpenAI (API)",
-        "Laravel Mailable",
-        "API"
-      ],
-      "impacts": [
-        "Boucle de feedback post-transactionnelle automatisée",
-        "Synthèses IA actionnables pour le support",
-        "Vision consolidée tickets ↔ interactions ↔ ventes",
-        "Hausse du taux de réponse via ciblage/relances",
-        "Pilotage par tableaux de bord (ratios, moyennes glissantes)"
       ]
     },
     {
@@ -993,8 +970,58 @@
       ]
     }
   ],
-
   "skills": [
+    {
+      "name": "IA & automatisation",
+      "keywords": [
+        "Intégration LLM via API",
+        "Extraction d’insights",
+        "Assistants virtuels",
+        "Génération de rapports",
+        "Automatisation",
+        "RAG léger"
+      ]
+    },
+    {
+      "name": "Architecture & intégration SI",
+      "keywords": [
+        "Architecture de solutions",
+        "Interop on-prem/cloud",
+        "Supervision",
+        "Sauvegardes",
+        "Traçabilité",
+        "Génération de certificats"
+      ]
+    },
+    {
+      "name": "Méthodes & gestion de projet",
+      "keywords": [
+        "PMI",
+        "ITIL (bonnes pratiques)",
+        "Cadrage",
+        "Processus commande→delivery→facturation",
+        "Conduite du changement",
+        "Adoption utilisateurs",
+        "POC→Production",
+        "Infogérance",
+        "Microsoft Project",
+        "Contrats agiles"
+      ]
+    },
+    {
+      "name": "Management & leadership",
+      "keywords": [
+        "Direction de division",
+        "Recrutement & encadrement",
+        "Management d’équipes",
+        "Pilotage pluridisciplinaire",
+        "Coaching commercial",
+        "Conduite de réunions",
+        "Gestion de conflits",
+        "Prise de parole",
+        "KPI & tableaux de bord"
+      ]
+    },
     {
       "name": "Développement back & web",
       "keywords": [
@@ -1071,16 +1098,6 @@
       ]
     },
     {
-      "name": "IA & automatisation",
-      "keywords": [
-        "Intégration LLM via API",
-        "Extraction d’insights",
-        "Assistants virtuels",
-        "Génération de rapports",
-        "Automatisation"
-      ]
-    },
-    {
       "name": "Mobile & MDM",
       "keywords": [
         "Android",
@@ -1114,46 +1131,6 @@
       "keywords": ["Windows Server", "UNIX", "Linux"]
     },
     {
-      "name": "Architecture & delivery",
-      "keywords": [
-        "Architecture de solutions",
-        "Interop on-prem/cloud",
-        "Supervision",
-        "Sauvegardes",
-        "Traçabilité",
-        "Génération de certificats"
-      ]
-    },
-    {
-      "name": "Méthodes & gestion de projet",
-      "keywords": [
-        "PMI",
-        "ITIL (bonnes pratiques)",
-        "Cadrage",
-        "Processus commande→delivery→facturation",
-        "Conduite du changement",
-        "Adoption utilisateurs",
-        "POC→Production",
-        "Infogérance",
-        "Microsoft Project",
-        "Contrats agiles"
-      ]
-    },
-    {
-      "name": "Management & leadership",
-      "keywords": [
-        "Direction de division",
-        "Recrutement & encadrement",
-        "Management d’équipes",
-        "Pilotage pluridisciplinaire",
-        "Coaching commercial",
-        "Conduite de réunions",
-        "Gestion de conflits",
-        "Prise de parole",
-        "KPI & tableaux de bord"
-      ]
-    },
-    {
       "name": "Business development & produit",
       "keywords": [
         "Construction d’offres",
@@ -1185,12 +1162,16 @@
       ]
     }
   ],
-
   "languages": [
-    { "language": "Français", "fluency": "Langue maternelle" },
-    { "language": "Anglais", "fluency": "Maîtrise professionnelle" }
+    {
+      "language": "Français",
+      "fluency": "Langue maternelle"
+    },
+    {
+      "language": "Anglais",
+      "fluency": "Maîtrise professionnelle"
+    }
   ],
-
   "education": [
     {
       "institution": "EFREI - Grande école du numérique - Paris, France",
@@ -1213,10 +1194,18 @@
       "studyType": "Mathématiques supérieures, biologie, chimie, physique, sciences de la Terre",
       "startDate": "1989-01",
       "endDate": "1990-12"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "TOEFL iBT – 95/120",
+      "issuer": "ETS",
+      "url": "https://www.ets.org/toefl",
+      "startDate": "2014-12"
     },
     {
-      "institution": "Bouygues Telecom – Campus (Université interne)",
-      "studyType": "Parcours managérial interne (« Manager en marche »)",
+      "name": "Parcours managérial (« Manager en marche »)",
+      "issuer": "Groupe Bouygues – Campus (Université interne)",
       "area": "Management et leadership",
       "startDate": "2013-01",
       "endDate": "2014-12",
@@ -1227,11 +1216,12 @@
         "Communication managériale & feedback",
         "Pilotage par objectifs (OKR)",
         "Conduite & accompagnement du changement"
-      ]
+      ],
+      "summary": "Management et leadership : Prise de poste & posture managériale; Leadership opérationnel; Management d’équipe & délégation; Communication managériale & feedback; Pilotage par objectifs (OKR); Conduite & accompagnement du changement"
     },
     {
-      "institution": "Kahler Communication (France) – organisme agréé",
-      "studyType": "Formation Process Communication Model (PCM)",
+      "name": "Formation Process Communication Model (PCM)",
+      "issuer": "Kahler Communication (France) – organisme agréé",
       "area": "Communication interpersonnelle & management",
       "startDate": "2009-01",
       "endDate": "2009-12",
@@ -1240,11 +1230,12 @@
         "Canaux de communication & portes d’entrée",
         "Gestion du stress (niveaux 1/2/3) et stratégies d’intervention",
         "Adaptation managériale et prévention des mécommunications"
-      ]
+      ],
+      "summary": "Communication interpersonnelle & management : Types de personnalité (Base & Phase), drivers et motivations; Canaux de communication & portes d’entrée; Gestion du stress (niveaux 1/2/3) et stratégies d’intervention; Adaptation managériale et prévention des mécommunications"
     },
     {
-      "institution": "Actecil",
-      "studyType": "Formation RGPD (Règlement Général sur la Protection des Données)",
+      "name": "Formation RGPD (Règlement Général sur la Protection des Données)",
+      "issuer": "Actecil",
       "area": "Protection des données & conformité",
       "startDate": "2018-01",
       "endDate": "2018-12",
@@ -1256,15 +1247,8 @@
         "Contrats sous-traitants (art. 28) & transferts hors UE",
         "Sécurité, violations de données & notifications",
         "Gouvernance de la conformité & rôle du DPO"
-      ]
-    }
-  ],
-  "certificates": [
-    {
-      "name": "TOEFL iBT – 95/120",
-      "issuer": "ETS",
-      "date": "2014-12",
-      "url": "https://www.ets.org/toefl"
+      ],
+      "summary": "Protection des données & conformité : Cadre légal RGPD (licéité, minimisation, finalité); Cartographie des traitements & tenue du registre; Analyse d’impact (AIPD/DPIA); Droits des personnes & procédures de réponse; Contrats sous-traitants (art. 28) & transferts hors UE; Sécurité et notifications; Gouvernance de la conformité & rôle du DPO"
     }
   ]
 }
