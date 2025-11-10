@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raisume.gentlestacks.co/cv-schema.json",
   "basics": {
     "Name": "Jérôme FELIX",
     "Label": "Architecte-intégrateur & CTO fractionnel",
