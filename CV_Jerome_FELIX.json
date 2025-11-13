@@ -33,12 +33,15 @@
       "teamPattern": "Peu ou pas de ressources techniques internes disponibles → je remplace fonctionnellement une équipe complète (chef de projet, architecte, dev, ops, support) et je transfère progressivement la compétence."
     },
     "continuousLearning": {
-      "mode": "Auto-formation accélérée",
-      "description": "Ingénieur de formation. J'intègre de nouvelles technologies (LLM, Azure, M365, ERP Laravel, intégration ERP↔e-commerce, automatisation retail, conformité RGPD) directement en production sans exiger une montée en charge lente côté client.",
+      "mode": "Auto-formation accélérée & hands-on",
+      "currentFocus": "Perfectionnement anglais professionnel (IELTS) et montée en compétences sur les technologies d'automatisation IA (n8n, Make, Azure Functions) via formations en ligne et développement de démonstrateurs",
+      "description": "Ingénieur de formation. J'intègre de nouvelles technologies directement en production via POCs et maquettes fonctionnelles sans exiger une montée en charge lente côté client.",
       "evidence": [
         "Mise en place d'une IA de synthèse SAV client",
         "ERP traçabilité bois exportable",
-        "Programme de fidélité omnicanal sans équipe CRM interne"
+        "Programme de fidélité omnicanal sans équipe CRM interne",
+        "Pipeline d'indexation sémantique (KB → OpenAI → Supabase)",
+        "Démonstrateurs automation workflows (n8n/Make) [en cours]"
       ]
     },
     "targetRoles": [
@@ -308,7 +311,12 @@
         "3000 j/h de conseil délivrés/an ; mise en place méthodologie PMI et formation des équipes.",
         "Grands comptes : Devoteam, Groupe Mulliez, Bouygues Construction, LVMH."
       ],
-      "keywords": ["PMI", "ITIL", "Gestion de services", "Managed Services"],
+      "keywords": [
+        "PMI",
+        "ITIL",
+        "Gestion de services",
+        "Managed Services"
+      ],
       "reportingLine": "Direction Entreprises",
       "engagementModel": "Salarié (cadre) – management",
       "maturity": "Build & Run (delivery managé, méthodes, industrialisation)",
@@ -515,7 +523,11 @@
       "highlights": [
         "Conception du cursus, encadrement enseignants, transfert de compétences."
       ],
-      "keywords": ["Enseignement", "Curriculum design", "Formation"],
+      "keywords": [
+        "Enseignement",
+        "Curriculum design",
+        "Formation"
+      ],
       "reportingLine": "Université d’Antananarivo / Coopération française",
       "engagementModel": "Coopération internationale",
       "maturity": "Programme académique (design, déploiement, transfert)",
@@ -532,7 +544,9 @@
         "Ouverture du Master Informatique",
         "Mise en place des supports et de l’équipe pédagogique"
       ],
-      "businessImpact": ["Renforcement durable des compétences locales"]
+      "businessImpact": [
+        "Renforcement durable des compétences locales"
+      ]
     }
   ],
   "projects": [
@@ -542,7 +556,10 @@
       "type": "R&D / Knowledge management",
       "startDate": "2025-11",
       "description": "Pipeline d’automatisation permettant d’extraire le contenu d'une base de connaissance hétérogène, de générer des embeddings OpenAI (text-embedding-3-small/large) et de les stocker dans Supabase (pgvector) pour activer la recherche sémantique et le RAG.",
-      "roles": ["Architecte", "Intégrateur IA"],
+      "roles": [
+        "Architecte",
+        "Intégrateur IA"
+      ],
       "highlights": [
         "Appel OpenAI Embeddings (text-embedding-3-small)",
         "Stockage des vecteurs dans Supabase via API REST",
@@ -585,13 +602,130 @@
       ]
     },
     {
+      "name": "Démonstrateur d'automatisation Teams avec agent IA conversationnel",
+      "entity": "gentleStacks.co",
+      "type": "R&D / Démonstrateur",
+      "startDate": "2025-11",
+      "status": "En cours de développement",
+      "description": "Workflow n8n orchestrant un agent IA conversationnel dans Microsoft Teams avec accès contextuel aux outils d'entreprise (OneDrive, SharePoint). Démonstrateur proof-of-concept pour assistant d'entreprise intelligent avec memory conversationnelle et function calling.",
+      "roles": [
+        "Architecte",
+        "Intégrateur IA"
+      ],
+      "highlights": [
+        "Agent conversationnel avec mémoire (window buffer memory)",
+        "Function calling pour accès outils (OneDrive search, SharePoint workflows, Dynamics CRM)",
+        "Orchestration n8n : filtrage messages, routage conditionnel, gestion erreurs",
+        "Intégration Microsoft Teams via webhooks et Graph API",
+        "Modèle LLM OpenAI avec prompts système optimisés"
+      ],
+      "keywords": [
+        "n8n",
+        "OpenAI",
+        "Microsoft Teams",
+        "Microsoft Graph API",
+        "Conversational AI",
+        "Function calling",
+        "Workflow automation",
+        "Memory management",
+        "OneDrive",
+        "SharePoint",
+        "Dynamics CRM",
+        "Node.js"
+      ],
+      "impacts": [
+        "Proof of concept pour assistant d'entreprise intelligent",
+        "Base réutilisable pour projets clients avec besoins similaires",
+        "Démonstration capacités d'intégration IA dans écosystème Microsoft 365"
+      ],
+      "sector": "Tech / POC IA conversationnelle",
+      "clientType": "Usage interne / démonstrateur gentleStacks",
+      "businessProblem": "Démontrer l'intégration d'un agent IA conversationnel avec outils d'entreprise pour automatiser les requêtes courantes.",
+      "solutionSummary": "Workflow n8n avec agent IA, memory et function calling connecté à l'écosystème Microsoft 365.",
+      "myContributions": [
+        "Architecture du workflow et design des interactions agent IA",
+        "Configuration n8n : nodes, conditions, gestion erreurs",
+        "Prompts système et orchestration function calling",
+        "Intégration Microsoft Teams et Graph API"
+      ],
+      "lifecycleStatus": "Démonstrateur en développement actif",
+      "criticality": "POC / R&D",
+      "techStack": [
+        "n8n",
+        "OpenAI API",
+        "Microsoft Teams",
+        "Microsoft Graph",
+        "Node.js",
+        "Webhooks"
+      ]
+    },
+    {
+      "name": "Démonstrateur d'automatisations no-code avec Make",
+      "entity": "gentleStacks.co",
+      "type": "R&D / Démonstrateur",
+      "startDate": "2025-11",
+      "status": "En cours de développement",
+      "description": "Ensemble de workflows Make explorant différents cas d'usage d'automatisation IA : traitement documentaire, enrichissement de données, génération de contenus, et orchestration multi-outils. Démonstrateurs pour évaluer Make.com vs n8n sur des scénarios business concrets.",
+      "roles": [
+        "Architecte",
+        "Intégrateur"
+      ],
+      "highlights": [
+        "Workflows de traitement documentaire automatisé (OCR, extraction, classification)",
+        "Enrichissement de données avec appels API externes",
+        "Génération de contenus via LLM avec templates",
+        "Orchestration d'outils hétérogènes (Google Workspace, CRM, bases de données)",
+        "Comparaison pratique Make vs n8n sur critères techniques et business"
+      ],
+      "keywords": [
+        "Make (Integromat)",
+        "Automatisation",
+        "Workflows no-code",
+        "OpenAI",
+        "OCR",
+        "API orchestration",
+        "Google Workspace",
+        "Airtable",
+        "Webhooks"
+      ],
+      "impacts": [
+        "Retour d'expérience concret sur plateformes no-code/low-code",
+        "Bibliothèque de patterns réutilisables pour projets clients",
+        "Évaluation comparative pour recommandations clients"
+      ],
+      "sector": "Tech / POC Automatisation",
+      "clientType": "Usage interne / R&D gentleStacks",
+      "businessProblem": "Évaluer et démontrer les capacités d'automatisation no-code sur cas d'usage business réels.",
+      "solutionSummary": "Suite de workflows Make orchestrant APIs, LLM et outils SaaS avec focus sur la praticité business.",
+      "myContributions": [
+        "Design des workflows et sélection des cas d'usage",
+        "Configuration Make : modules, routeurs, gestion erreurs",
+        "Intégrations API et optimisation des flux",
+        "Documentation et benchmark Make vs n8n"
+      ],
+      "lifecycleStatus": "Démonstrateurs en développement actif",
+      "criticality": "POC / R&D",
+      "techStack": [
+        "Make (Integromat)",
+        "OpenAI API",
+        "Google Workspace",
+        "Airtable",
+        "Webhooks",
+        "REST APIs"
+      ]
+    },
+    {
       "name": "Plateforme de satisfaction client temps réel avec intégration ERP/ITSM et IA",
       "entity": "Optimium / Clients retail & services",
       "type": "professional",
       "startDate": "2020-06",
       "endDate": "2021-06",
       "description": "Application Laravel 11 + Laravel Nova pour piloter des enquêtes post-prestations (factures, contrats, interventions) : synchronisation ERP (Sage/CopyPark) et ITSM (GLPI), ciblage automatisé, envois d’e-mails, collecte des réponses et reporting NPS/CSAT exploitable en BI. Les tickets GLPI et CopyPark sont retraités par IA à la volée pour produire une synthèse exploitable.",
-      "roles": ["Concepteur", "Développeur principal", "Chef de projet"],
+      "roles": [
+        "Concepteur",
+        "Développeur principal",
+        "Chef de projet"
+      ],
       "highlights": [
         "Back-office Laravel Nova : gestion des campagnes, questions, segments, exclusions et relances",
         "ETL depuis Sage/CopyPark : import de pièces et création/enrichissement des fiches \"Surveyable\"",
@@ -691,7 +825,11 @@
         "Numérisation",
         "Temps réel"
       ],
-      "roles": ["Architecte", "Développeur principal", "Mainteneur (MCO)"],
+      "roles": [
+        "Architecte",
+        "Développeur principal",
+        "Mainteneur (MCO)"
+      ],
       "impacts": [
         "Traitement de plusieurs centaines de dossiers/jour",
         "Réduction des erreurs de saisie via extraction, classement et routage automatique",
@@ -738,7 +876,11 @@
       "endDate": "2021-12",
       "url": "https://www.takone.nc/",
       "description": "Application Laravel 9 avec Laravel Backpack pour une administration modulaire (droits, menus, CRUD) couvrant l’écosystème santal en Nouvelle-Calédonie. Trois packages privés Optimium : santalbatch (approvisionnement & coutumier), santaltrade (commerce & stocks), santaluser (RH).",
-      "roles": ["Architecte", "Développeur principal", "Chef de projet"],
+      "roles": [
+        "Architecte",
+        "Développeur principal",
+        "Chef de projet"
+      ],
       "highlights": [
         "Gestion forestière : arbres, propriétaires coutumiers, plans de coupe, quotas, certifications (FSC/Bio), primes/régularisations",
         "Facturation & paiements : factures/lignes par lots, suivi des paiements et états de signature, TGC locale, réglages comptables (comptes, primes)",
@@ -824,7 +966,11 @@
       "endDate": "2025-10",
       "url": "https://raisume.gentlestacks.co/",
       "description": "Démonstrateur one-page (Slim 4, PHP) qui évalue un CV (JSON Resume) face à une offre d'emploi ou à des questions recruteur. UI minimaliste (HTMX + Pico.css), backend PSR-7/15 avec injection de dépendances (PHP-DI). En production (MCO).",
-      "roles": ["Architecte", "Développeur principal", "DevOps"],
+      "roles": [
+        "Architecte",
+        "Développeur principal",
+        "DevOps"
+      ],
       "highlights": [
         "Architecture : Slim 4, routing/middlewares PSR-7/15, PHP-DI, Repository + Domain/Infrastructure, logs structurés (Monolog)",
         "LLM : client API OpenAI custom (cURL), système de prompts & segmentation (CV + offre), réponses structurées Markdown (sanitisation league/commonmark), modèles configurables via env",
@@ -915,7 +1061,10 @@
       "endDate": "2019-12",
       "url": "https://www.ville-dumbea.nc/",
       "description": "Programme de migration M365 pour une grande collectivité, incluant SharePoint et plus de 200 migrations hybrides.",
-      "roles": ["Chef de projet", "Architecte M365"],
+      "roles": [
+        "Chef de projet",
+        "Architecte M365"
+      ],
       "highlights": [
         "Plan de migration et conduite du changement",
         "Interop on-prem / cloud (hybrid Exchange, Azure AD)",
@@ -975,7 +1124,10 @@
       "startDate": "2018-03",
       "endDate": "2019-06",
       "description": "Mise en place d'infrastructures Azure pour un grand compte (réseaux, sécurité, supervision).",
-      "roles": ["Architecte Cloud", "Chef de projet"],
+      "roles": [
+        "Architecte Cloud",
+        "Chef de projet"
+      ],
       "highlights": [
         "Landing zone et segmentation réseau",
         "Sécurisation IAM et politiques",
@@ -1035,7 +1187,11 @@
       "startDate": "2020-02",
       "endDate": "2021-12",
       "description": "Boutiques en ligne synchronisées (catalogue/stock/commandes) avec Sage.",
-      "roles": ["Développeur", "Intégrateur", "Chef de projet"],
+      "roles": [
+        "Développeur",
+        "Intégrateur",
+        "Chef de projet"
+      ],
       "highlights": [
         "Connecteurs catalogue/stock",
         "Passerelles paiement et facture",
@@ -1094,7 +1250,11 @@
       "endDate": "2021-03",
       "url": "https://www.apei.nc/",
       "description": "Application métier Laravel/Laravel Nova pour la gestion de la paie en ESAT (travailleurs handicapés) : calculs de pécule, suivi des droits/absences, génération de bulletins PDF et exports comptables/bancaires, avec traçabilité complète et contrôles spécifiques au contexte protégé.",
-      "roles": ["Concepteur", "Développeur principal", "Chef de projet"],
+      "roles": [
+        "Concepteur",
+        "Développeur principal",
+        "Chef de projet"
+      ],
       "highlights": [
         "Administration sous Laravel Nova (accès protégé) : travailleurs, catégories/services/ateliers, tarifs de repas historisés",
         "Paie mensuelle par travailleur avec contrôle anti-doublon (un pécule/mois), saisie heures/repas/congés/absences/maladie",
@@ -1170,7 +1330,11 @@
       "endDate": "2021-10",
       "url": "https://chevaldistribution.nc/fidelite/",
       "description": "Application Laravel centrée sur la fidélisation client : comptes, points, statuts et bons d’achat, carte/barcode en caisse, intégration POS/ERP via API (XLProg), campagnes e-mail & push pour acquisition, activation et rétention, avec back-office Laravel Nova et tableaux de bord marketing.",
-      "roles": ["Chef de projet", "Concepteur", "Développeur principal"],
+      "roles": [
+        "Chef de projet",
+        "Concepteur",
+        "Développeur principal"
+      ],
       "highlights": [
         "Portail client : authentification, tableau de bord points/statut, carte/barcode présentable en caisse",
         "Génération & suivi des bons : calcul des points cumulés, émissions de coupons, contrôles d’éligibilité et conditions d’utilisation",
@@ -1250,7 +1414,11 @@
       "startDate": "2019-01",
       "endDate": "2019-12",
       "description": "CRM orienté prospection et pilotage du pipeline commercial : sociétés, contacts, actions, deals et abonnements, avec back-office Laravel Backpack, cloisonnement multi-tenant, calculs de CA attendu et notifications de relance.",
-      "roles": ["Chef de projet", "Concepteur", "Développeur principal"],
+      "roles": [
+        "Chef de projet",
+        "Concepteur",
+        "Développeur principal"
+      ],
       "highlights": [
         "Back-office Laravel Backpack : sociétés, contacts, deals, actions, abonnements ; filtres (société, statut, propriétaire, dates) et boutons d’action rapides",
         "Multi-tenant : scopes automatiques par abonnement/utilisateur pour cloisonner la donnée",
@@ -1326,13 +1494,23 @@
       "startDate": "2013-01",
       "endDate": "2014-06",
       "description": "Mise en place d’une solution de partage de fichiers chiffrée pour 1 500 journalistes en mobilité (gouvernance, sécurité, accompagnement métiers).",
-      "roles": ["Chef de projet", "Architecte solution", "Avant-vente"],
+      "roles": [
+        "Chef de projet",
+        "Architecte solution",
+        "Avant-vente"
+      ],
       "highlights": [
         "Cadrage sécurité & conformité",
         "Intégration MDM et Single Sign-On",
         "Déploiement progressif par rédaction/service"
       ],
-      "keywords": ["File sharing", "Sécurité", "Mobilité", "MDM", "SSO"],
+      "keywords": [
+        "File sharing",
+        "Sécurité",
+        "Mobilité",
+        "MDM",
+        "SSO"
+      ],
       "impacts": [
         "≈1 500 utilisateurs mobiles couverts",
         "Processus d’échange standardisés entre rédactions",
@@ -1349,7 +1527,10 @@
       "runAndOps": "Transfert aux équipes internes après déploiement",
       "lifecycleStatus": "Programme livré",
       "criticality": "Élevée (contenus sensibles, mobilité)",
-      "compliance": ["Politiques sécurité DSI", "Gouvernance accès"],
+      "compliance": [
+        "Politiques sécurité DSI",
+        "Gouvernance accès"
+      ],
       "businessImpact": [
         "Réduction des risques",
         "Expérience homogène pour les rédactions"
@@ -1368,13 +1549,22 @@
       "startDate": "2013-03",
       "endDate": "2013-12",
       "description": "Déploiement et industrialisation de la sauvegarde cloud des PC pour ~1 000 consultants (politiques, supervision, PRA).",
-      "roles": ["Chef de projet", "Architecte"],
+      "roles": [
+        "Chef de projet",
+        "Architecte"
+      ],
       "highlights": [
         "Policies de sauvegarde par profils d’usage",
         "Supervision centralisée & alerting",
         "Recommandations PRA et tests de restauration"
       ],
-      "keywords": ["Backup", "Cloud", "Endpoint", "PRA", "Supervision"],
+      "keywords": [
+        "Backup",
+        "Cloud",
+        "Endpoint",
+        "PRA",
+        "Supervision"
+      ],
       "impacts": [
         "≈1 000 postes protégés",
         "RTO/RPO documentés et testés",
@@ -1390,7 +1580,10 @@
       "runAndOps": "Exploitation internalisée avec supervision",
       "lifecycleStatus": "Programme livré et opéré",
       "criticality": "Élevée (perte de données critiques)",
-      "compliance": ["Politiques de sauvegarde", "Bonnes pratiques PRA"],
+      "compliance": [
+        "Politiques de sauvegarde",
+        "Bonnes pratiques PRA"
+      ],
       "businessImpact": [
         "Réduction du risque de perte",
         "Processus de restauration éprouvé"
@@ -1408,13 +1601,22 @@
       "startDate": "2013-05",
       "endDate": "2014-05",
       "description": "Mise sous sauvegarde de 70 serveurs et lancement d’un contrat d’infogérance associé (processus, runbook, KPIs).",
-      "roles": ["Chef de projet", "Transition Manager"],
+      "roles": [
+        "Chef de projet",
+        "Transition Manager"
+      ],
       "highlights": [
         "Cartographie & criticité applicative",
         "Runbook d’exploitation et escalades",
         "Tableau de bord SLA mensuel"
       ],
-      "keywords": ["Backup", "Infogérance", "Runbook", "SLA", "Supervision"],
+      "keywords": [
+        "Backup",
+        "Infogérance",
+        "Runbook",
+        "SLA",
+        "Supervision"
+      ],
       "impacts": [
         "≈70 serveurs couverts par la sauvegarde et la supervision",
         "Runbook et matrice d’escalade en place",
@@ -1430,7 +1632,11 @@
       "runAndOps": "Infogérance lancée avec processus et KPIs",
       "lifecycleStatus": "Transition livrée",
       "criticality": "Élevée (SI critique)",
-      "compliance": ["SLA", "Processus d'escalade", "Traçabilité"],
+      "compliance": [
+        "SLA",
+        "Processus d'escalade",
+        "Traçabilité"
+      ],
       "businessImpact": [
         "Exploitation stabilisée",
         "Visibilité sur la qualité de service"
@@ -1448,13 +1654,22 @@
       "startDate": "2014-01",
       "endDate": "2014-11",
       "description": "Cadrage et déploiement d’une solution MDM pour ~5 000 utilisateurs (BYOD & flotte).",
-      "roles": ["Architecte", "Chef de projet"],
+      "roles": [
+        "Architecte",
+        "Chef de projet"
+      ],
       "highlights": [
         "Politiques BYOD vs. terminaux gérés",
         "Self-service onboarding",
         "Conformité & protections des données"
       ],
-      "keywords": ["MDM", "BYOD", "Sécurité", "Enrôlement", "Conformité"],
+      "keywords": [
+        "MDM",
+        "BYOD",
+        "Sécurité",
+        "Enrôlement",
+        "Conformité"
+      ],
       "impacts": [
         "≈5 000 utilisateurs éligibles (BYOD + flotte)",
         "Onboarding self-service réduisant la charge support",
@@ -1470,9 +1685,18 @@
       "runAndOps": "Passage en run standard côté DSI",
       "lifecycleStatus": "Projet livré",
       "criticality": "Élevée (accès données académiques)",
-      "compliance": ["Politiques BYOD", "Protection des données"],
-      "businessImpact": ["Réduction charge support", "Sécurité homogène"],
-      "techStack": ["MDM [à préciser]", "Annuaire/SSO [à préciser]"]
+      "compliance": [
+        "Politiques BYOD",
+        "Protection des données"
+      ],
+      "businessImpact": [
+        "Réduction charge support",
+        "Sécurité homogène"
+      ],
+      "techStack": [
+        "MDM [à préciser]",
+        "Annuaire/SSO [à préciser]"
+      ]
     },
     {
       "name": "Eau Écarlate – Sauvegarde du SI",
@@ -1481,13 +1705,20 @@
       "startDate": "2013-07",
       "endDate": "2013-11",
       "description": "Externalisation et automatisation des sauvegardes d’environ 20 serveurs avec tests de restauration documentés.",
-      "roles": ["Chef de projet"],
+      "roles": [
+        "Chef de projet"
+      ],
       "highlights": [
         "Plan de sauvegarde multi-niveaux",
         "Tests trimestriels de restauration",
         "Reporting pour audit"
       ],
-      "keywords": ["Backup", "Restauration", "Audit", "Monitoring"],
+      "keywords": [
+        "Backup",
+        "Restauration",
+        "Audit",
+        "Monitoring"
+      ],
       "impacts": [
         "≈20 serveurs couverts avec politiques planifiées",
         "Restauration testée trimestriellement",
@@ -1503,9 +1734,18 @@
       "runAndOps": "Opérations déléguées avec reporting périodique",
       "lifecycleStatus": "Projet livré",
       "criticality": "Moyenne à élevée",
-      "compliance": ["Journalisation", "Traçabilité de restauration"],
-      "businessImpact": ["Réduction de risque", "Conformité audit"],
-      "techStack": ["Solution backup [à préciser]", "Monitoring/Audit"]
+      "compliance": [
+        "Journalisation",
+        "Traçabilité de restauration"
+      ],
+      "businessImpact": [
+        "Réduction de risque",
+        "Conformité audit"
+      ],
+      "techStack": [
+        "Solution backup [à préciser]",
+        "Monitoring/Audit"
+      ]
     },
     {
       "name": "Hilti – Accès CRM en mobilité",
@@ -1514,13 +1754,22 @@
       "startDate": "2003-01",
       "endDate": "2004-12",
       "description": "Accès sécurisé au CRM pour forces de vente terrain (réseaux, APN, SSO, optimisation latence).",
-      "roles": ["Avant-vente", "Chef de projet"],
+      "roles": [
+        "Avant-vente",
+        "Chef de projet"
+      ],
       "highlights": [
         "Tunnel sécurisé & APN dédié",
         "Optimisation des temps de synchro",
         "Support utilisateurs et kit de démarrage"
       ],
-      "keywords": ["Mobilité", "CRM", "VPN", "APN", "SSO"],
+      "keywords": [
+        "Mobilité",
+        "CRM",
+        "VPN",
+        "APN",
+        "SSO"
+      ],
       "impacts": [
         "Accès sécurisé généralisé à la force de vente",
         "Temps de synchronisation optimisés en mobilité",
@@ -1536,9 +1785,20 @@
       "runAndOps": "Support initial puis transfert aux équipes",
       "lifecycleStatus": "Projet livré",
       "criticality": "Élevée pour la force de vente",
-      "compliance": ["Sécurité réseau", "Gestion identités"],
-      "businessImpact": ["Adoption du CRM mobile", "Productivité terrain"],
-      "techStack": ["APN", "VPN", "SSO", "Outils CRM [à préciser]"]
+      "compliance": [
+        "Sécurité réseau",
+        "Gestion identités"
+      ],
+      "businessImpact": [
+        "Adoption du CRM mobile",
+        "Productivité terrain"
+      ],
+      "techStack": [
+        "APN",
+        "VPN",
+        "SSO",
+        "Outils CRM [à préciser]"
+      ]
     },
     {
       "name": "Dulux Valentine – Relevés concurrence mobile",
@@ -1547,7 +1807,10 @@
       "startDate": "2002-06",
       "endDate": "2003-06",
       "description": "Solution de collecte mobile en points de vente (réseau sécurisé, synchro, back-office).",
-      "roles": ["Avant-vente", "Chef de projet"],
+      "roles": [
+        "Avant-vente",
+        "Chef de projet"
+      ],
       "highlights": [
         "Appareils terrain durcis",
         "Synchronisation offline/online",
@@ -1596,13 +1859,22 @@
       "startDate": "2004-04",
       "endDate": "2005-03",
       "description": "Mise en place d’un APN dédié pour ~100 agences avec priorisation des flux métier.",
-      "roles": ["Architecte réseau", "Chef de projet"],
+      "roles": [
+        "Architecte réseau",
+        "Chef de projet"
+      ],
       "highlights": [
         "Segmentation & QoS par application",
         "Supervision de bout en bout",
         "Plan de bascule et tests de charge"
       ],
-      "keywords": ["APN", "QoS", "MPLS/VPN", "Supervision", "Réseau"],
+      "keywords": [
+        "APN",
+        "QoS",
+        "MPLS/VPN",
+        "Supervision",
+        "Réseau"
+      ],
       "impacts": [
         "≈100 agences interconnectées via APN dédié",
         "Flux métiers priorisés grâce à la QoS",
@@ -1618,9 +1890,20 @@
       "runAndOps": "Exploitation continue avec supervision",
       "lifecycleStatus": "Projet livré puis opéré",
       "criticality": "Élevée (agences en production)",
-      "compliance": ["Sécurité réseau", "Disponibilité"],
-      "businessImpact": ["Qualité de service stable", "Réduction d'incidents"],
-      "techStack": ["APN", "MPLS/VPN", "QoS", "Supervision"]
+      "compliance": [
+        "Sécurité réseau",
+        "Disponibilité"
+      ],
+      "businessImpact": [
+        "Qualité de service stable",
+        "Réduction d'incidents"
+      ],
+      "techStack": [
+        "APN",
+        "MPLS/VPN",
+        "QoS",
+        "Supervision"
+      ]
     },
     {
       "name": "Douanes françaises – Géolocalisation opérationnelle",
@@ -1629,13 +1912,20 @@
       "startDate": "2005-02",
       "endDate": "2006-02",
       "description": "Dispositif de géolocalisation et de communication sécurisée pour agents en intervention.",
-      "roles": ["Chef de projet"],
+      "roles": [
+        "Chef de projet"
+      ],
       "highlights": [
         "Sécurité des communications",
         "Cartographie temps réel",
         "Formation & support 24/7"
       ],
-      "keywords": ["Géolocalisation", "Mobilité", "Sécurité", "Temps réel"],
+      "keywords": [
+        "Géolocalisation",
+        "Mobilité",
+        "Sécurité",
+        "Temps réel"
+      ],
       "impacts": [
         "Capacité de localisation temps réel en opérationnel",
         "Sécurisation des échanges terrain ↔ centre",
@@ -1651,7 +1941,10 @@
       "runAndOps": "Support 24/7 mis en place puis transition",
       "lifecycleStatus": "Projet livré",
       "criticality": "Très élevée (opérationnel terrain)",
-      "compliance": ["Sécurité des communications", "Gestion des accès"],
+      "compliance": [
+        "Sécurité des communications",
+        "Gestion des accès"
+      ],
       "businessImpact": [
         "Meilleure coordination",
         "Réduction des risques terrain"
@@ -1669,13 +1962,22 @@
       "startDate": "1999-06",
       "endDate": "2001-02",
       "description": "Architecture et réalisation d’une plateforme de données de marché temps réel (stack Microsoft, C++/COM, haute dispo).",
-      "roles": ["Responsable IT", "Chef de projet"],
+      "roles": [
+        "Responsable IT",
+        "Chef de projet"
+      ],
       "highlights": [
         "Architecture HA/Cluster",
         "Flux data temps réel & ActiveX",
         "Équipe de 12 développeurs"
       ],
-      "keywords": ["Temps réel", "C++", "COM/DCOM", "HA/Cluster", "SQL Server"],
+      "keywords": [
+        "Temps réel",
+        "C++",
+        "COM/DCOM",
+        "HA/Cluster",
+        "SQL Server"
+      ],
       "impacts": [
         "Haute disponibilité via cluster",
         "Traitement et diffusion de flux temps réel",
@@ -1692,7 +1994,10 @@
       "runAndOps": "Exploitation éditeur avec supervision",
       "lifecycleStatus": "Produit livré et opéré",
       "criticality": "Très élevée (temps réel marchés)",
-      "compliance": ["Disponibilité/HA", "Performance"],
+      "compliance": [
+        "Disponibilité/HA",
+        "Performance"
+      ],
       "businessImpact": [
         "Plateforme compétitive sur le temps réel",
         "Capacité de montée en charge"
@@ -1714,13 +2019,22 @@
       "startDate": "1998-01",
       "endDate": "1999-03",
       "description": "Conception et développement d’un intranet marketing multi-pays (contenus, workflows, droits).",
-      "roles": ["Ingénieur", "Chef de projet"],
+      "roles": [
+        "Ingénieur",
+        "Chef de projet"
+      ],
       "highlights": [
         "Gestion multilingue & droits",
         "Workflows de publication",
         "Refonte UX editors"
       ],
-      "keywords": ["Intranet", "Workflows", "Multilingue", "ASP", "UX"],
+      "keywords": [
+        "Intranet",
+        "Workflows",
+        "Multilingue",
+        "ASP",
+        "UX"
+      ],
       "impacts": [
         "Déploiement multi-pays",
         "Cycle de publication accéléré",
@@ -1736,12 +2050,20 @@
       "runAndOps": "Transfert aux équipes locales",
       "lifecycleStatus": "Projet livré",
       "criticality": "Moyenne (communication interne)",
-      "compliance": ["Gouvernance contenus", "Droits d'accès"],
+      "compliance": [
+        "Gouvernance contenus",
+        "Droits d'accès"
+      ],
       "businessImpact": [
         "Processus éditoriaux accélérés",
         "Qualité et cohérence multi-pays"
       ],
-      "techStack": ["ASP", "SQL Server", "IIS", "HTML/JS/CSS"]
+      "techStack": [
+        "ASP",
+        "SQL Server",
+        "IIS",
+        "HTML/JS/CSS"
+      ]
     },
     {
       "name": "AP-HP – Transformation Minitel → site institutionnel",
@@ -1750,7 +2072,10 @@
       "startDate": "1998-06",
       "endDate": "1999-05",
       "description": "Migration d’un service Minitel vers un portail web complet (architecture, contenus, accessibilité).",
-      "roles": ["Ingénieur", "Chef de projet"],
+      "roles": [
+        "Ingénieur",
+        "Chef de projet"
+      ],
       "highlights": [
         "Architecture web & sécurité",
         "Modèle de contenus et recherche",
@@ -1779,7 +2104,10 @@
       "runAndOps": "Exploitation institutionnelle standard",
       "lifecycleStatus": "Projet livré",
       "criticality": "Moyenne",
-      "compliance": ["Accessibilité", "Sécurité web basique"],
+      "compliance": [
+        "Accessibilité",
+        "Sécurité web basique"
+      ],
       "businessImpact": [
         "Meilleure accessibilité des informations",
         "Réduction de la dette technique"
@@ -1797,13 +2125,20 @@
       "startDate": "1995-09",
       "endDate": "1997-09",
       "description": "Conception du cursus, transfert de compétences et encadrement des enseignants pour créer un Master de référence.",
-      "roles": ["Consultant pédagogique"],
+      "roles": [
+        "Consultant pédagogique"
+      ],
       "highlights": [
         "Blueprint pédagogique complet",
         "Formation des formateurs",
         "Pérennisation du programme"
       ],
-      "keywords": ["Éducation", "Curriculum", "Formation", "Gouvernance"],
+      "keywords": [
+        "Éducation",
+        "Curriculum",
+        "Formation",
+        "Gouvernance"
+      ],
       "impacts": [
         "Cursus Master structuré et opérationnel",
         "Équipe locale formée et autonome",
@@ -1820,7 +2155,9 @@
       "runAndOps": "Programme opéré par l'université",
       "lifecycleStatus": "Programme lancé",
       "criticality": "Stratégique (montée en compétences locale)",
-      "compliance": ["Référentiel académique local"],
+      "compliance": [
+        "Référentiel académique local"
+      ],
       "businessImpact": [
         "Capacité de formation locale renforcée",
         "Autonomie des équipes pédagogiques"
@@ -2037,13 +2374,14 @@
     },
     {
       "name": "Développement back & web",
-      "summary": "Back PHP (Slim/Laravel), APIs REST, génération documentaire, intégrations.",
-      "lastUsed": "2025-10",
+      "summary": "Back PHP (Slim/Laravel), Node.js, APIs REST, génération documentaire, intégrations.",
+      "lastUsed": "2025-11",
       "usedInLast24Months": true,
       "recencyBand": "current",
       "yearsExperience": null,
       "keywords": [
         "PHP",
+        "Node.js",
         "Laravel",
         "Laravel Nova",
         "Laravel Backpack",
@@ -2070,6 +2408,13 @@
           "evidenceProjects": [
             "rAIsuMe – Démonstrateur d'analyse de CV par IA pour l'aide au recrutement"
           ]
+        },
+        {
+          "keyword": "Node.js",
+          "proficiency": null,
+          "lastUsed": "2025-11",
+          "usedInLast24Months": true,
+          "evidenceProjects": []
         },
         {
           "keyword": "Laravel",
@@ -2111,7 +2456,11 @@
       "usedInLast24Months": false,
       "recencyBand": "recent",
       "yearsExperience": null,
-      "keywords": ["MySQL", "MariaDB", "Microsoft SQL Server"],
+      "keywords": [
+        "MySQL",
+        "MariaDB",
+        "Microsoft SQL Server"
+      ],
       "subskills": [
         {
           "keyword": "MySQL",
@@ -2139,8 +2488,8 @@
     },
     {
       "name": "Cloud & virtualisation",
-      "summary": "Azure (landing zone, IAM/Policies, monitoring/backup), App Service, cost management.",
-      "lastUsed": "2025-10",
+      "summary": "Azure (landing zone, IAM/Policies, monitoring/backup, serverless), App Service, cost management.",
+      "lastUsed": "2025-11",
       "usedInLast24Months": true,
       "recencyBand": "current",
       "yearsExperience": null,
@@ -2153,6 +2502,8 @@
         "Backup",
         "Cost management",
         "Azure App Service",
+        "Azure Functions",
+        "Serverless",
         "OVH",
         "Microsoft Hyper-V"
       ],
@@ -2167,11 +2518,20 @@
           ]
         },
         {
+          "keyword": "Azure Functions (serverless)",
+          "proficiency": null,
+          "lastUsed": "2025-11",
+          "usedInLast24Months": true,
+          "evidenceProjects": []
+        },
+        {
           "keyword": "IAM/Policies",
           "proficiency": null,
           "lastUsed": "2019-06",
           "usedInLast24Months": false,
-          "evidenceProjects": ["Déploiement d'infrastructures Azure"]
+          "evidenceProjects": [
+            "Déploiement d'infrastructures Azure"
+          ]
         }
       ]
     },
@@ -2311,7 +2671,7 @@
       "lastUsed": "2019-06",
       "usedInLast24Months": false,
       "recencyBand": "legacy",
-      "yearsExperience": null,
+      "yearsExperience": 10,
       "keywords": [
         "TCP/IP",
         "SIP",
@@ -2345,8 +2705,12 @@
       "lastUsed": "2025-10",
       "usedInLast24Months": true,
       "recencyBand": "current",
-      "yearsExperience": null,
-      "keywords": ["Windows Server", "UNIX", "Linux"],
+      "yearsExperience": 25,
+      "keywords": [
+        "Windows Server",
+        "UNIX",
+        "Linux"
+      ],
       "subskills": [
         {
           "keyword": "Linux (prod web)",
@@ -2365,7 +2729,7 @@
       "lastUsed": "2025-10",
       "usedInLast24Months": true,
       "recencyBand": "current",
-      "yearsExperience": null,
+      "yearsExperience": 20,
       "keywords": [
         "Construction d’offres",
         "Go-to-market",
@@ -2392,11 +2756,14 @@
     {
       "name": "Web performance & SEO",
       "summary": "Optimisations perf côté WordPress/WooCommerce et SEO pragmatique.",
-      "lastUsed": "2021-12",
-      "usedInLast24Months": false,
+      "lastUsed": "2025-08",
+      "usedInLast24Months": true,
       "recencyBand": "recent",
-      "yearsExperience": null,
-      "keywords": ["Optimisation performance", "SEO"],
+      "yearsExperience": 10,
+      "keywords": [
+        "Optimisation performance",
+        "SEO"
+      ],
       "subskills": [
         {
           "keyword": "Performance WooCommerce",
@@ -2415,7 +2782,7 @@
       "lastUsed": "2025-10",
       "usedInLast24Months": true,
       "recencyBand": "current",
-      "yearsExperience": null,
+      "yearsExperience": 25,
       "keywords": [
         "PME",
         "Collectivités",
@@ -2493,17 +2860,25 @@
         "Quotas & conformité environnementale",
         "Justificatifs légaux douaniers"
       ],
-      "referenceProjects": ["ERP Traçabilité Bois de Santal"]
+      "referenceProjects": [
+        "ERP Traçabilité Bois de Santal"
+      ]
     },
     {
       "sector": "Secteur protégé / Médico-social / ESAT",
-      "stakeholders": ["Direction d'établissement", "RH", "Comptable / Paye"],
+      "stakeholders": [
+        "Direction d'établissement",
+        "RH",
+        "Comptable / Paye"
+      ],
       "painPoints": [
         "Calculs de rémunération spécifiques",
         "Traçabilité RH",
         "Conformité réglementaire locale"
       ],
-      "referenceProjects": ["Automatisation paie ESAT"]
+      "referenceProjects": [
+        "Automatisation paie ESAT"
+      ]
     }
   ],
   "languages": [
@@ -2513,12 +2888,14 @@
     },
     {
       "language": "Anglais",
-      "fluency": "Professionnel",
+      "fluency": "Professionnel (Business fluent)",
+      "certificationInProgress": "IELTS en préparation (examen prévu Q1 2026, objectif Band 7.5-8.0)",
       "usageContexts": [
         "Animation d'ateliers clients",
-        "Rédaction de doc d'architecture technique",
-        "Alignement direction / métier / tech",
-        "Support utilisateur et formation"
+        "Rédaction de documentation technique",
+        "Alignement direction/métier/tech",
+        "Support utilisateur et formation",
+        "Immersion quotidienne à Melbourne (depuis août 2025)"
       ]
     }
   ],
