@@ -659,61 +659,72 @@
         "Webhooks"
       ]
     },
-    {
-      "name": "Démonstrateur d'automatisations no-code avec Make",
-      "entity": "gentleStacks.co",
-      "type": "R&D / Démonstrateur",
-      "startDate": "2025-11",
-      "status": "En cours de développement",
-      "description": "Ensemble de workflows Make explorant différents cas d'usage d'automatisation IA : traitement documentaire, enrichissement de données, génération de contenus, et orchestration multi-outils. Démonstrateurs pour évaluer Make.com vs n8n sur des scénarios business concrets.",
-      "roles": [
-        "Architecte",
-        "Intégrateur"
-      ],
-      "highlights": [
-        "Workflows de traitement documentaire automatisé (OCR, extraction, classification)",
-        "Enrichissement de données avec appels API externes",
-        "Génération de contenus via LLM avec templates",
-        "Orchestration d'outils hétérogènes (Google Workspace, CRM, bases de données)",
-        "Comparaison pratique Make vs n8n sur critères techniques et business"
-      ],
-      "keywords": [
-        "Make (Integromat)",
-        "Automatisation",
-        "Workflows no-code",
-        "OpenAI",
-        "OCR",
-        "API orchestration",
-        "Google Workspace",
-        "Airtable",
-        "Webhooks"
-      ],
-      "impacts": [
-        "Retour d'expérience concret sur plateformes no-code/low-code",
-        "Bibliothèque de patterns réutilisables pour projets clients",
-        "Évaluation comparative pour recommandations clients"
-      ],
-      "sector": "Tech / POC Automatisation",
-      "clientType": "Usage interne / R&D gentleStacks",
-      "businessProblem": "Évaluer et démontrer les capacités d'automatisation no-code sur cas d'usage business réels.",
-      "solutionSummary": "Suite de workflows Make orchestrant APIs, LLM et outils SaaS avec focus sur la praticité business.",
-      "myContributions": [
-        "Design des workflows et sélection des cas d'usage",
-        "Configuration Make : modules, routeurs, gestion erreurs",
-        "Intégrations API et optimisation des flux",
-        "Documentation et benchmark Make vs n8n"
-      ],
-      "lifecycleStatus": "Démonstrateurs en développement actif",
-      "criticality": "POC / R&D",
-      "techStack": [
-        "Make (Integromat)",
-        "OpenAI API",
-        "Google Workspace",
-        "Airtable",
-        "Webhooks",
-        "REST APIs"
-      ]
-    },
+{
+  "name": "Plateforme d'automatisations IA avec n8n (PKM Obsidian + RAG SharePoint)",
+  "entity": "gentleStacks.co",
+  "type": "R&D / Démonstrateur",
+  "startDate": "2025-11",
+  "status": "En cours de développement",
+  "description": "Développement d’une suite de workflows n8n pour automatiser la capture, la normalisation et l’enrichissement IA de contenus provenant d’Obsidian (via Dropbox), de SharePoint et de OneDrive. Intégration d’Azure Functions, de frontmatters IA, de pipelines RAG et d'orchestrations avancées pour un PKM intelligent, réutilisable par les clients.",
+  "roles": [
+    "Architecte Automatisation",
+    "Intégrateur Nocode/IA"
+  ],
+  "highlights": [
+    "Workflows n8n de traitement documentaire : extraction, parsing, normalisation automatique de frontmatters",
+    "Génération et enrichissement IA via OpenAI (LLM + embeddings)",
+    "Orchestration hybride : Azure Functions (webhooks SharePoint) → n8n",
+    "Pipelines RAG sur SharePoint avec Azure AI Search",
+    "Standardisation PKM Obsidian : qualité des métadonnées, typologies, taxonomies",
+    "Gestion des triggers : Dropbox, SharePoint, webhooks, schedule",
+    "Benchmark n8n vs Make sur robustesse, industrialisation et coûts"
+  ],
+  "keywords": [
+    "n8n",
+    "OpenAI",
+    "Azure Functions",
+    "Azure AI Search",
+    "RAG",
+    "Frontmatter",
+    "Obsidian",
+    "Dropbox",
+    "SharePoint",
+    "Workflows low-code",
+    "Webhook orchestration",
+    "LLM"
+  ],
+  "impacts": [
+    "Création d’une bibliothèque interne de workflows réutilisables (PKM, support, documentation, indexation)",
+    "Base technique pour proposer des offres d’automatisation IA aux PME/collectivités",
+    "Cadre standard pour industrialiser la qualité des données Obsidian et SharePoint",
+    "Évaluation pratique n8n vs Make pour recommandations clients"
+  ],
+  "sector": "Tech / Automatisation IA & RAG",
+  "clientType": "Usage interne / R&D gentleStacks",
+  "businessProblem": "Industrialiser les flux d’information internes (PKM, documentation technique) et démontrer la valeur d’un pipeline IA complet accessible sans licences Copilot coûteuses.",
+  "solutionSummary": "Workflows n8n orchestrant transformations documentaires, appels OpenAI, indexation RAG SharePoint, standardisation PKM et automatisations inter-outils.",
+  "myContributions": [
+    "Architecture des workflows n8n et conception des pipelines IA",
+    "Développement de l’Azure Function pour relayer les webhooks SharePoint",
+    "Implémentation du parsing documentaire et des frontmatters IA",
+    "Mise en place RAG : datasource, index, indexer, skill Azure AI Search",
+    "Documentation technique et benchmark n8n vs Make",
+    "Industrialisation : gestion erreurs, déduplication, exécution unique"
+  ],
+  "lifecycleStatus": "Développement actif et itératif (Workflows PKM + SharePoint RAG)",
+  "criticality": "POC / R&D stratégique",
+  "techStack": [
+    "n8n",
+    "OpenAI API",
+    "Azure Functions (Node.js)",
+    "Azure AI Search",
+    "Dropbox API",
+    "Microsoft Graph / SharePoint",
+    "Webhooks",
+    "REST APIs"
+  ]
+},
+
     {
       "name": "Plateforme de satisfaction client temps réel avec intégration ERP/ITSM et IA",
       "entity": "Optimium / Clients retail & services",
