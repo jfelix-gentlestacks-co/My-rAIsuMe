@@ -11,7 +11,9 @@
       "Company": "gentleStacks.co",
       "LinkedIn": "https://www.linkedin.com/in/jfelix"
     },
-    "Summary": "Architecte-Intégration de solutions métiers critiques et automatisation avec 25+ ans d'expérience en architecture SI, intégration d'applications (ERP/CRM/ITSM, e‑commerce/ GED, LAD/RAD), et gouvernance cloud (Azure). J'intègre pragmatiquement l'IA générative et l'automatisation dans les processus existants pour accélérer la valeur (POC→industrialisation), tout en assurant la continuité opérationnelle. Interventions en mode conseil/architecture ou CTO fractionnel (roadmaps, décisions build/buy, mentoring d’équipes).",
+
+    "Summary": "Architecte-intégrateur de solutions métiers critiques et spécialiste Azure/IA, avec 25+ ans d'expérience en architecture SI, intégration (ERP/CRM/ITSM, e-commerce/GED, LAD/RAD) et gouvernance cloud. Je conçois et intègre des solutions d’automatisation pragmatiques, de la découverte des cas d’usage jusqu’à l’industrialisation. Certifié Microsoft Azure AI (AI-900) je m’appuye notamment sur l’écosystème Microsoft Azure (AI Services, AI Studio, automatisations, IA responsable). J'interviens en mode conseil/architecture ou CTO fractionnel (roadmaps, arbitrages build/buy, mentoring) tout en assurant la continuité opérationnelle."
+
     "Availability": {
       "EngagementModelsPreferred": [
         "CTO fractionnel",
@@ -2935,6 +2937,15 @@
     }
   ],
   "certificates": [
+    {
+      "name": "Microsoft Certified: Azure AI (AI-900)",
+      "issuer": "Microsoft",
+      "area": "L’IA sur Microsoft Azure",
+      "url": "https://learn.microsoft.com/certifications/azure-ai-fundamentals/",
+      "startDate": "2025-12",
+      "status": "Obtained",
+      "summary": "Certification validant la compréhension des concepts d’IA et des principaux services Azure AI (vision, langage, copilots, IA responsable)."
+    },
     {
       "name": "TOEFL iBT",
       "issuer": "ETS",
