@@ -1,29 +1,29 @@
 {
   "$schema": "https://raisume.gentlestacks.co/cv-schema.json",
   "basics": {
-    "Name": "Jérôme FELIX",
-    "Label": "Architecte-intégrateur & CTO fractionnel",
-    "Location": "Melbourne (AU) / Nouméa (NC) / Remote",
-    "Contact": {
-      "Email": "j.felix@gentlestacks.co",
-      "Phone": "+61 419 594 023",
-      "Website": "https://gentlestacks.co",
-      "Company": "gentleStacks.co",
-      "LinkedIn": "https://www.linkedin.com/in/jfelix"
+    "name": "Jérôme FELIX",
+    "label": "Architecte-intégrateur & CTO fractionnel",
+    "location": "Melbourne (AU) / Nouméa (NC) / Remote",
+    "contact": {
+      "email": "j.felix@gentlestacks.co",
+      "phone": "+61 419 594 023",
+      "website": "https://gentlestacks.co",
+      "company": "gentleStacks.co",
+      "linkedIn": "https://www.linkedin.com/in/jfelix"
     },
 
-    "Summary": "Architecte-intégrateur de solutions métiers critiques et spécialiste Azure/IA, avec 25+ ans d'expérience en architecture SI, intégration (ERP/CRM/ITSM, e-commerce/GED, LAD/RAD) et gouvernance cloud. Je conçois et intègre des solutions d’automatisation pragmatiques, de la découverte des cas d’usage jusqu’à l’industrialisation. Certifié Microsoft Azure AI (AI-900) je m’appuye notamment sur l’écosystème Microsoft Azure (AI Services, AI Studio, automatisations, IA responsable). J'interviens en mode conseil/architecture ou CTO fractionnel (roadmaps, arbitrages build/buy, mentoring) tout en assurant la continuité opérationnelle."
+    "summary": "Architecte-intégrateur de solutions métiers critiques et spécialiste Azure/IA, avec 25+ ans d'expérience en architecture SI, intégration (ERP/CRM/ITSM, e-commerce/GED, LAD/RAD) et gouvernance cloud. Je conçois et intègre des solutions d’automatisation pragmatiques, de la découverte des cas d’usage jusqu’à l’industrialisation. Certifié Microsoft Azure AI (AI-900) je m’appuye notamment sur l’écosystème Microsoft Azure (AI Services, AI Studio, automatisations, IA responsable). J'interviens en mode conseil/architecture ou CTO fractionnel (roadmaps, arbitrages build/buy, mentoring) tout en assurant la continuité opérationnelle.",
 
-    "Availability": {
-      "EngagementModelsPreferred": [
+    "availability": {
+      "engagementModelsPreferred": [
         "CTO fractionnel",
         "Forfait build→MCO",
         "Support & MCO avec SLA"
       ],
-      "Workload": "Temps partiel / mission ciblée"
+      "workload": "Temps partiel / mission ciblée"
     }
   },
-  "Branding": {
+  "branding": {
     "corePositioning": {
       "role": "Architecte-intégrateur & CTO fractionnel",
       "pitch": "J'assure l'architecture, le développement, l'intégration, le déploiement en production et le MCO d'applications métiers critiques dans des PME / ETI / structures publiques où il n'existe pas d'équipe IT ou de compétences spécifiques nécessaires."
@@ -43,7 +43,7 @@
         "ERP traçabilité bois exportable",
         "Programme de fidélité omnicanal sans équipe CRM interne",
         "Pipeline d'indexation sémantique (KB → OpenAI → Supabase)",
-        "Démonstrateurs automation workflows (n8n/Make) [en cours]"
+        "Démonstrateurs automation workflows (n8n/Make)"
       ]
     },
     "targetRoles": [
@@ -95,8 +95,7 @@
       "maturity": "Build & Run (conception, dev, déploiement, MCO)",
       "teamContext": "Modèle solo + partenaires ; coordination freelances/éditeurs ; transfert progressif aux équipes client",
       "teamSize": {
-        "internal": 1,
-        "externalPartners": null
+        "internal": 1
       },
       "responsibilities": [
         "Cadrage métier et architecture d’intégration",
@@ -149,10 +148,6 @@
       "engagementModel": "Salarié (cadre) – responsable de division",
       "maturity": "Build & Run (conception, développement, production, MCO)",
       "teamContext": "Ressources locales seniors limitées ; coordination de prestataires et formation continue des équipes internes",
-      "teamSize": {
-        "internal": null,
-        "externalPartners": null
-      },
       "responsibilities": [
         "Cadrage fonctionnel, architecture applicative, développement des modules cœur",
         "Déploiement en production, sécurité et conformité (RGPD, fiscalité locale)",
@@ -202,10 +197,6 @@
       "engagementModel": "Salarié (cadre) – responsable BU",
       "maturity": "Build & Run (transformation cloud, delivery, run managé)",
       "teamContext": "Montée en compétence d’équipes commerciales et techniques ; partenaires spécialisés",
-      "teamSize": {
-        "internal": null,
-        "externalPartners": null
-      },
       "responsibilities": [
         "Structuration offre, packaging, pricing et processus",
         "Pilotage des migrations M365/Azure et conduite du changement",
@@ -237,10 +228,6 @@
       "engagementModel": "Salarié (cadre)",
       "maturity": "Advisory → Build → Run initial",
       "teamContext": "Création d’offre ; coordination avec équipes commerciales et techniques",
-      "teamSize": {
-        "internal": null,
-        "externalPartners": null
-      },
       "responsibilities": [
         "Design d’offre, go-to-market, premiers déploiements",
         "Structuration process avant-vente → delivery → infogérance"
@@ -283,10 +270,6 @@
       "engagementModel": "Salarié (cadre)",
       "maturity": "Advisory & Go-to-market (build orchestré avec DSI/Réseau & partenaires)",
       "teamContext": "Travail transverse avec DSI, Réseau, Achats, Juridique, Forces de vente directes/indirectes",
-      "teamSize": {
-        "internal": null,
-        "externalPartners": null
-      },
       "responsibilities": [
         "Études de marché et business plans",
         "Design d’offres et choix fournisseurs",
@@ -325,8 +308,7 @@
       "teamContext": "Département dédié Services Pros (ingénieurs et managers)",
       "teamSize": {
         "internal": 30,
-        "managers": 3,
-        "externalPartners": null
+        "managers": 3
       },
       "responsibilities": [
         "Création et pilotage du département",
@@ -369,8 +351,7 @@
       "maturity": "Advisory & Go-to-market technique",
       "teamContext": "Équipe avant-vente dédiée",
       "teamSize": {
-        "internal": 6,
-        "externalPartners": null
+        "internal": 6
       },
       "responsibilities": [
         "Recrutement et animation de l’équipe",
@@ -416,8 +397,7 @@
       "maturity": "Build & Run (plateforme temps réel haute dispo)",
       "teamContext": "Équipe R&D interne",
       "teamSize": {
-        "internal": 12,
-        "externalPartners": null
+        "internal": 12
       },
       "responsibilities": [
         "Architecture fonctionnelle et technique",
@@ -474,10 +454,6 @@
       "engagementModel": "Salarié - Double rôle : ingénieur projets web + consultant expert Verity",
       "maturity": "Build & Run (projets web/intranet + plateforme enterprise search)",
       "teamContext": "Interventions autonomes en tant qu'expert Verity + équipes projets web",
-      "teamSize": {
-        "internal": null,
-        "externalPartners": null
-      },
       "responsibilities": [
         "Avant-vente technique et réalisation de projets web/intranet",
         "Relation client, spécifications, développement, mise en ligne",
@@ -533,11 +509,6 @@
       "reportingLine": "Université d’Antananarivo / Coopération française",
       "engagementModel": "Coopération internationale",
       "maturity": "Programme académique (design, déploiement, transfert)",
-      "teamContext": "[à préciser]",
-      "teamSize": {
-        "internal": null,
-        "externalPartners": null
-      },
       "responsibilities": [
         "Conception du cursus et des unités d’enseignement",
         "Encadrement pédagogique et transfert de compétences"
@@ -789,7 +760,7 @@
         "J'ai mis en production la plateforme et transféré les usages aux équipes."
       ],
       "runAndOps": "Déployé et exploité en production côté Optimium/clients ; exports BI périodiques.",
-      "lifecycleStatus": "Livré et exploité en production sur la période (statut actuel [à préciser])",
+      "lifecycleStatus": "Livré et exploité en production sur la période, MCO en cours",
       "criticality": "Support et pilotage qualité SAV/expérience client",
       "compliance": [
         "Protection des données clients (RGPD)",
@@ -877,8 +848,7 @@
         "OCR/LAD-RAD",
         "PHP",
         "JScript",
-        "Stockage réseau",
-        "Supervision [à préciser]"
+        "Stockage réseau"
       ]
     },
     {
@@ -968,7 +938,7 @@
         "dompdf",
         "Excel exports",
         "Email SMTP",
-        "Hébergement [à préciser]"
+        "Hébergement Azure Web Apps"
       ]
     },
     {
@@ -1189,8 +1159,7 @@
         "Azure (IaaS/PaaS)",
         "Azure Monitor/Log Analytics",
         "Azure Backup",
-        "Policies/IAM",
-        "IaC [à préciser]"
+        "Policies/IAM"
       ]
     },
     {
@@ -1252,7 +1221,7 @@
         "Sage API",
         "PHP",
         "MySQL",
-        "Nginx/Apache [à préciser]"
+        "Apache"
       ]
     },
     {
@@ -1549,8 +1518,8 @@
         "Expérience homogène pour les rédactions"
       ],
       "techStack": [
-        "MDM [à préciser]",
-        "SSO [à préciser]",
+        "MDM",
+        "SSO",
         "Chiffrement",
         "Annuaire d'entreprise"
       ]
@@ -1602,7 +1571,7 @@
         "Processus de restauration éprouvé"
       ],
       "techStack": [
-        "Solution backup cloud [à préciser]",
+        "Solution backup cloud",
         "Monitoring/Alerting",
         "Scripts déploiement"
       ]
@@ -1655,8 +1624,7 @@
         "Visibilité sur la qualité de service"
       ],
       "techStack": [
-        "Backup [à préciser]",
-        "Supervision [à préciser]",
+        "Backup",
         "Tableaux de bord SLA"
       ]
     },
@@ -1707,8 +1675,8 @@
         "Sécurité homogène"
       ],
       "techStack": [
-        "MDM [à préciser]",
-        "Annuaire/SSO [à préciser]"
+        "MDM",
+        "Annuaire/SSO"
       ]
     },
     {
@@ -1756,7 +1724,7 @@
         "Conformité audit"
       ],
       "techStack": [
-        "Solution backup [à préciser]",
+        "Solution backup",
         "Monitoring/Audit"
       ]
     },
@@ -1810,7 +1778,7 @@
         "APN",
         "VPN",
         "SSO",
-        "Outils CRM [à préciser]"
+        "Outils CRM"
       ]
     },
     {
@@ -1963,7 +1931,7 @@
         "Réduction des risques terrain"
       ],
       "techStack": [
-        "Géolocalisation [à préciser]",
+        "Géolocalisation Réseau GSM",
         "Réseau sécurisé",
         "Cartographie temps réel"
       ]
@@ -2127,8 +2095,8 @@
       ],
       "techStack": [
         "ASP/HTML",
-        "Serveur web [à préciser]",
-        "Moteur de recherche [à préciser]"
+        "Serveur web Microsoft IIS",
+        "Moteur de recherche"
       ]
     },
     {
@@ -2223,10 +2191,10 @@
     {
       "name": "IA & automatisation",
       "summary": "Intégration de LLMs dans des apps existantes, automatisation documentaire et génération de synthèses actionnables.",
-      "lastUsed": "2025-10",
+      "lastUsed": "Currently used",
       "usedInLast24Months": true,
       "recencyBand": "current",
-      "yearsExperience": null,
+      "yearsExperience": 2,
       "keywords": [
         "Intégration LLM via API",
         "Extraction d’insights",
@@ -2234,36 +2202,6 @@
         "Génération de rapports",
         "Automatisation",
         "RAG léger"
-      ],
-      "subskills": [
-        {
-          "keyword": "Intégration LLM via API",
-          "proficiency": null,
-          "lastUsed": "2025-10",
-          "usedInLast24Months": true,
-          "evidenceProjects": [
-            "rAIsuMe – Démonstrateur d'analyse de CV par IA pour l'aide au recrutement",
-            "Plateforme de satisfaction client temps réel avec intégration ERP/ITSM et IA"
-          ]
-        },
-        {
-          "keyword": "Extraction d’insights",
-          "proficiency": null,
-          "lastUsed": "2021-06",
-          "usedInLast24Months": false,
-          "evidenceProjects": [
-            "Plateforme de satisfaction client temps réel avec intégration ERP/ITSM et IA"
-          ]
-        },
-        {
-          "keyword": "RAG léger",
-          "proficiency": null,
-          "lastUsed": "2025-10",
-          "usedInLast24Months": true,
-          "evidenceProjects": [
-            "rAIsuMe – Démonstrateur d'analyse de CV par IA pour l'aide au recrutement"
-          ]
-        }
       ]
     },
     {
@@ -2284,7 +2222,6 @@
       "subskills": [
         {
           "keyword": "Interop on-prem/cloud",
-          "proficiency": null,
           "lastUsed": "2019-12",
           "usedInLast24Months": false,
           "evidenceProjects": [
@@ -2294,7 +2231,6 @@
         },
         {
           "keyword": "Traçabilité",
-          "proficiency": null,
           "lastUsed": "2021-12",
           "usedInLast24Months": false,
           "evidenceProjects": [
@@ -2303,7 +2239,6 @@
         },
         {
           "keyword": "Supervision & sauvegardes",
-          "proficiency": null,
           "lastUsed": "2019-06",
           "usedInLast24Months": false,
           "evidenceProjects": [
@@ -2336,7 +2271,6 @@
       "subskills": [
         {
           "keyword": "Conduite du changement",
-          "proficiency": null,
           "lastUsed": "2019-12",
           "usedInLast24Months": false,
           "evidenceProjects": [
@@ -2345,7 +2279,6 @@
         },
         {
           "keyword": "POC→Production",
-          "proficiency": null,
           "lastUsed": "2025-10",
           "usedInLast24Months": true,
           "evidenceProjects": [
@@ -2376,7 +2309,6 @@
       "subskills": [
         {
           "keyword": "Direction de division",
-          "proficiency": null,
           "lastUsed": "2025-06",
           "usedInLast24Months": true,
           "evidenceProjects": [
@@ -2415,7 +2347,6 @@
       "subskills": [
         {
           "keyword": "PHP",
-          "proficiency": null,
           "lastUsed": "2025-10",
           "usedInLast24Months": true,
           "evidenceProjects": [
@@ -2424,14 +2355,12 @@
         },
         {
           "keyword": "Node.js",
-          "proficiency": null,
           "lastUsed": "2025-11",
           "usedInLast24Months": true,
           "evidenceProjects": []
         },
         {
           "keyword": "Laravel",
-          "proficiency": null,
           "lastUsed": "2021-12",
           "usedInLast24Months": false,
           "evidenceProjects": [
@@ -2443,7 +2372,6 @@
         },
         {
           "keyword": "API REST",
-          "proficiency": null,
           "lastUsed": "2025-10",
           "usedInLast24Months": true,
           "evidenceProjects": [
@@ -2453,7 +2381,6 @@
         },
         {
           "keyword": "Temps réel (C/C++)",
-          "proficiency": null,
           "lastUsed": "2001-02",
           "usedInLast24Months": false,
           "evidenceProjects": [
@@ -2477,7 +2404,6 @@
       "subskills": [
         {
           "keyword": "MySQL",
-          "proficiency": null,
           "lastUsed": "2021-12",
           "usedInLast24Months": false,
           "evidenceProjects": [
@@ -2489,7 +2415,6 @@
         },
         {
           "keyword": "Microsoft SQL Server",
-          "proficiency": null,
           "lastUsed": "2001-02",
           "usedInLast24Months": false,
           "evidenceProjects": [
@@ -2523,7 +2448,6 @@
       "subskills": [
         {
           "keyword": "Azure App Service",
-          "proficiency": null,
           "lastUsed": "2025-10",
           "usedInLast24Months": true,
           "evidenceProjects": [
@@ -2532,14 +2456,12 @@
         },
         {
           "keyword": "Azure Functions (serverless)",
-          "proficiency": null,
           "lastUsed": "2025-11",
           "usedInLast24Months": true,
           "evidenceProjects": []
         },
         {
           "keyword": "IAM/Policies",
-          "proficiency": null,
           "lastUsed": "2019-06",
           "usedInLast24Months": false,
           "evidenceProjects": [
@@ -2566,7 +2488,6 @@
       "subskills": [
         {
           "keyword": "Exchange Hybrid",
-          "proficiency": null,
           "lastUsed": "2019-12",
           "usedInLast24Months": false,
           "evidenceProjects": [
@@ -2594,7 +2515,6 @@
       "subskills": [
         {
           "keyword": "Sage ERP",
-          "proficiency": null,
           "lastUsed": "2021-12",
           "usedInLast24Months": false,
           "evidenceProjects": [
@@ -2604,7 +2524,6 @@
         },
         {
           "keyword": "WooCommerce",
-          "proficiency": null,
           "lastUsed": "2021-12",
           "usedInLast24Months": false,
           "evidenceProjects": [
@@ -2631,7 +2550,6 @@
       "subskills": [
         {
           "keyword": "NPS/CSAT",
-          "proficiency": null,
           "lastUsed": "2021-06",
           "usedInLast24Months": false,
           "evidenceProjects": [
@@ -2659,7 +2577,6 @@
       "subskills": [
         {
           "keyword": "MDM",
-          "proficiency": null,
           "lastUsed": "2014-11",
           "usedInLast24Months": false,
           "evidenceProjects": [
@@ -2669,7 +2586,6 @@
         },
         {
           "keyword": "Push/notifications (OneSignal)",
-          "proficiency": null,
           "lastUsed": "2021-10",
           "usedInLast24Months": false,
           "evidenceProjects": [
@@ -2702,7 +2618,6 @@
       "subskills": [
         {
           "keyword": "APN/VPN & QoS",
-          "proficiency": null,
           "lastUsed": "2005-03",
           "usedInLast24Months": false,
           "evidenceProjects": [
@@ -2727,7 +2642,6 @@
       "subskills": [
         {
           "keyword": "Linux (prod web)",
-          "proficiency": null,
           "lastUsed": "2025-10",
           "usedInLast24Months": true,
           "evidenceProjects": [
@@ -2757,7 +2671,6 @@
       "subskills": [
         {
           "keyword": "Avant-vente & pilotage pipeline",
-          "proficiency": null,
           "lastUsed": "2019-12",
           "usedInLast24Months": false,
           "evidenceProjects": [
@@ -2780,7 +2693,6 @@
       "subskills": [
         {
           "keyword": "Performance WooCommerce",
-          "proficiency": null,
           "lastUsed": "2021-12",
           "usedInLast24Months": false,
           "evidenceProjects": [
@@ -2930,7 +2842,7 @@
     },
     {
       "institution": "Lycée Saint-Louis (Paris, France)",
-      "area": "Classes préparatoires aux grandes écoles (CPGE) — Mathématiques supérieures [filière à préciser]",
+      "area": "Classes préparatoires aux grandes écoles (CPGE) — Mathématiques supérieures et biologie",
       "studyType": "CPGE scientifique (1ʳᵉ année)",
       "startDate": "1989-01",
       "endDate": "1990-12"
@@ -2941,10 +2853,84 @@
       "name": "Microsoft Certified: Azure AI (AI-900)",
       "issuer": "Microsoft",
       "area": "L’IA sur Microsoft Azure",
-      "url": "https://learn.microsoft.com/certifications/azure-ai-fundamentals/",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/",
+      "shareUrl": "https://learn.microsoft.com/api/credentials/share/en-us/jeromefelix/AE51D4DCCEE2134E",
+      "credentialId": "AE51D4DCCEE2134E",
       "startDate": "2025-12",
       "status": "Obtained",
-      "summary": "Certification validant la compréhension des concepts d’IA et des principaux services Azure AI (vision, langage, copilots, IA responsable)."
+      "summary": "Certification validant la connaissance de l'IA et du machine learning dans Azure, ainsi que des principaux services Azure AI (vision, langage, IA générative, IA responsable)."
+    },
+    {
+      "name": "Microsoft Certified: Create agents in Microsoft Copilot Studio",
+      "issuer": "Microsoft",
+      "area": "Microsoft Copilot Studio · Power Platform · Agents",
+      "url": "https://learn.microsoft.com/en-us/credentials/applied-skills/create-agents-in-microsoft-copilot-studio/",
+      "shareUrl": "https://learn.microsoft.com/api/credentials/share/en-us/jeromefelix/AB757A728F02115D",
+      "credentialId": "AB757A728F02115D",
+      "startDate": "2025-12",
+      "status": "Obtained",
+      "summary": "Compétence validant la capacité à concevoir, configurer et déployer un agent avec Microsoft Copilot Studio : création de l’agent, gestion des topics/phrases de déclenchement, conception du dialogue (nodes, questions, conditions, variables, adaptive cards), configuration de l’IA générative et de sources de connaissance, intégration Dataverse et actions via Power Automate.",
+      "skills": [
+        "Microsoft Copilot Studio",
+        "Copilot Studio agent design",
+        "Topic design & trigger phrases",
+        "Conversation flow authoring (nodes)",
+        "Adaptive Cards",
+        "Variables & entities (closed list entities, scope)",
+        "Generative AI instructions",
+        "Knowledge sources (public website, files)",
+        "Content moderation configuration",
+        "Dataverse (data retrieval concepts)",
+        "Actions in Copilot Studio",
+        "Power Automate flow integration (inputs/outputs)",
+        "Agent deployment"
+      ]
+    },
+    {
+      "name": "Microsoft Certified: Generate reports with AI research agents",
+      "issuer": "Microsoft",
+      "area": "Microsoft 365 Copilot · AI research agents",
+      "url": "https://learn.microsoft.com/en-us/credentials/applied-skills/generate-reports-with-ai-research-agents/",
+      "startDate": "2025-12",
+      "status": "Obtained",
+      "credentialId": "44B296DA5B6EF55A",
+      "summary": "Certification validant la capacité à générer des rapports métier à l’aide d’agents de recherche IA (Microsoft 365 Copilot), avec cadrage des besoins, rédaction, citations de sources et fact-checking.",
+      "skills": [
+        "Microsoft 365 Copilot",
+        "Agentic Automation",
+        "Prompt Engineering",
+        "Requirements Gathering / Scoping",
+        "Business Research",
+        "Information Literacy",
+        "Business Reporting",
+        "Technical Writing",
+        "Executive Summaries",
+        "Source Citation",
+        "Fact-checking",
+        "Document Formatting",
+        "Publishing & Sharing"
+      ]
+    },
+    {
+      "name": "Microsoft Certified: Streamline business workflows with AI chat",
+      "issuer": "Microsoft",
+      "area": "Microsoft 365 Copilot Chat · Business productivity workflows",
+      "url": "https://learn.microsoft.com/en-us/credentials/applied-skills/streamline-business-workflows-with-ai-chat/",
+      "startDate": "2025-12",
+      "status": "Obtained",
+      "summary": "Certification validant la capacité à rationaliser des workflows métier grâce à l’IA via Microsoft 365 Copilot Chat, avec mise en pratique sur des tâches de productivité web (Edge) et de bureautique (Word, PowerPoint, Outlook, Excel) : rédaction/synthèse, préparation de présentations, gestion d’e-mails et analyse de données.",
+      "skills": [
+        "Microsoft 365 Copilot Chat",
+        "AI Chat for Business Productivity",
+        "Microsoft Edge productivity tasks (summarize/translate/research)",
+        "Copilot in Microsoft Word (draft/refine/summarize)",
+        "Copilot in Microsoft PowerPoint (create slides/generate images/summarize)",
+        "Copilot in Microsoft Outlook (summarize threads/draft replies/meeting agenda)",
+        "Copilot in Microsoft Excel (interpret/summarize/predict from data)",
+        "Prompt Engineering",
+        "Executive Summaries",
+        "Business Writing"
+      ]
     },
     {
       "name": "TOEFL iBT",
